@@ -1,36 +1,39 @@
-import { readdir, readFile, stat } from "node:fs/promises";
+import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 
 const root = path.resolve("dist");
 const configuredBase = (process.env.SITE_BASE || "").replace(/\/$/, "");
 const htmlFiles = [];
+const builtFiles = new Set();
 const walk = async (directory) => {
   for (const entry of await readdir(directory, { withFileTypes: true })) {
     const target = path.join(directory, entry.name);
     if (entry.isDirectory()) await walk(target);
-    else if (entry.name.endsWith(".html")) htmlFiles.push(target);
+    else {
+      builtFiles.add(path.relative(root, target).split(path.sep).join("/"));
+      if (entry.name.endsWith(".html")) htmlFiles.push(target);
+    }
   }
 };
 await walk(root);
 
 const failures = [];
-const exists = async (target) => { try { return (await stat(target)).isFile(); } catch { return false; } };
 const localTarget = (value) => {
   const url = new URL(value, "https://webdevbydesign.com");
   if (url.origin !== "https://webdevbydesign.com") return null;
   const pathname = configuredBase && (url.pathname === configuredBase || url.pathname.startsWith(`${configuredBase}/`))
     ? url.pathname.slice(configuredBase.length) || "/"
     : url.pathname;
-  if (pathname === "/404/") return path.join(root, "404.html");
-  if (pathname.endsWith("/")) return path.join(root, pathname, "index.html");
-  const direct = path.join(root, pathname);
-  return path.extname(pathname) ? direct : `${direct}.html`;
+  const relativePath = decodeURIComponent(pathname).replace(/^\/+/, "");
+  if (relativePath === "404/") return "404.html";
+  if (!relativePath || relativePath.endsWith("/")) return `${relativePath}index.html`;
+  return path.posix.extname(relativePath) ? relativePath : `${relativePath}.html`;
 };
 
 for (const file of htmlFiles) {
   const html = await readFile(file, "utf8");
-  const relative = path.relative(root, file);
-  const isRedirect = relative.includes("author\\") || relative.includes("category\\") || relative.includes("2023\\");
+  const relative = path.relative(root, file).split(path.sep).join("/");
+  const isRedirect = relative.startsWith("author/") || relative.startsWith("category/") || relative.startsWith("2023/");
   if (!isRedirect && !/<html[^>]+lang="en"/.test(html)) failures.push(`${relative}: missing document language`);
   if (!isRedirect && !/<title>[^<]+<\/title>/.test(html)) failures.push(`${relative}: missing title`);
   if (!isRedirect && !/<meta name="description" content="[^"]+"/.test(html)) failures.push(`${relative}: missing description`);
@@ -42,7 +45,7 @@ for (const file of htmlFiles) {
     const value = match[1];
     if (/^(?:mailto:|tel:|data:|#|javascript:)/.test(value)) continue;
     const target = localTarget(value);
-    if (target && !(await exists(target))) failures.push(`${relative}: missing local target ${value}`);
+    if (target && !builtFiles.has(target)) failures.push(`${relative}: missing local target ${value}`);
   }
 }
 
