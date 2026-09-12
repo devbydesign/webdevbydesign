@@ -1,0 +1,131 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TestimonialBand from "../components/TestimonialBand.astro";
+import { emailHref } from "../data/site";
+
+const customFeatures = [
+  "Easy-to-use content options for editors",
+  "Advanced user roles with content-approval workflows",
+  "Automated email alerts and page displays",
+  "Social media integration",
+  "Advanced calendars and feeds",
+  "Pre-built styles for content pages",
+  "Advanced form submissions and record tracking",
+  "Responsive media for mobile and desktop",
+  "Git tracking of website configuration",
+  "Clean development-to-production workflows",
+  "SEO optimization and marketing-tool integration",
+];
+
+const mediumFeatures = [
+  "Six to twelve core pages",
+  "Custom homepage and interior-page layouts",
+  "Expanded content organization and entry support",
+  "Contact forms and practical third-party integrations",
+  "Responsive design and accessibility fundamentals",
+  "Search-friendly page structure and metadata",
+  "Editor training and launch support",
+];
+---
+
+<BaseLayout title="Pricing" description="Explore Dev By Design packages for web development, testing, content editing, consulting, branding, and theming.">
+  <header class="pricing-hero section">
+    <div class="container">
+      <p class="eyebrow">Flexible services for distinct needs</p>
+      <h1>Pricing</h1>
+      <p class="lede">Dev By Design can help throughout the life of a professional website, with design, development, testing, content, and hosting consultation.</p>
+    </div>
+  </header>
+
+  <section class="section development" aria-labelledby="development-heading">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Development packages</p>
+        <h2 id="development-heading">Drupal & WordPress Web Development</h2>
+        <p class="lede">Every website has a different audience, goal, design, and set of features. We provide custom solutions because your website should be a custom product.</p>
+      </div>
+      <div class="package-grid">
+        <article class="package card medium-package">
+          <p class="package-label">More room to grow</p>
+          <h3>Medium Business Package</h3>
+          <p>For established businesses that need more custom content, richer page layouts, and room for integrations beyond a basic brochure website.</p>
+          <ul>{mediumFeatures.map((feature) => <li>{feature}</li>)}</ul>
+          <div class="investment"><span>Investment average</span><strong>$3,500–$6,000*</strong></div>
+          <small>*Final pricing reflects content volume, integrations, and the level of custom design required.</small>
+          <a class="button" href={emailHref("Medium Business Package inquiry")}>Discuss your project</a>
+        </article>
+        <article class="package card">
+          <h3>Small Business Package</h3>
+          <p>For basic websites with four to six main pages, we offer fixed-price bids so you know exactly what you’re getting. We can also customize more freely at hourly rates.</p>
+          <p>We discuss your target audience, priorities, and desired functionality before outlining project tasks, timelines, and requested training. We focus on giving you a website that is easy to maintain and update.</p>
+          <div class="investment"><span>Investment average</span><strong>$2,000–$4,500*</strong></div>
+          <small>*This is an average range. We regularly accept smaller-budget projects and are happy to work with your budget whenever possible.</small>
+          <a class="button" href={emailHref("Small Business Package inquiry")}>Discuss your project</a>
+        </article>
+        <article class="package card featured custom-package">
+          <p class="package-label">Built around your requirements</p>
+          <h3>Custom Development Package</h3>
+          <p>For larger projects, flexible hourly pricing allows your website to be built in phases and expanded as desired. We organize complex work into a clear, manageable plan.</p>
+          <p>Our Drupal and WordPress experience spans content structure, automated displays, technical integrations, custom modules, and editing tools that make content easier to manage.</p>
+          <h4>Features you may wish to incorporate</h4>
+          <ul>{customFeatures.map((feature) => <li>{feature}</li>)}</ul>
+          <div class="investment"><span>Investment average</span><strong>Request a bid estimate with hourly pricing</strong></div>
+          <a class="button" href={emailHref("Custom Development Package inquiry")}>Request an estimate</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-soft" aria-labelledby="specialist-heading">
+    <div class="container">
+      <div class="section-heading"><p class="eyebrow">Focused expertise</p><h2 id="specialist-heading">Specialist Services</h2></div>
+      <div class="small-package-grid">
+        <article class="package card"><h3>Testing Services</h3><p>We test across mobile, tablet, and desktop devices, checking cross-browser support, accessibility, usability, and opportunities for improvement.</p><div class="investment"><span>Investment average</span><strong>$85 / hour</strong></div></article>
+        <article class="package card"><h3>Content Editing & Proofreading</h3><p>We provide detailed content editing and proofreading, image preparation, text formatting, and review for other content issues.</p><div class="investment"><span>Investment average</span><strong>$65 / hour</strong></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section design-packages" aria-labelledby="design-heading">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Brands designed for the web</p>
+        <h2 id="design-heading">Design Packages</h2>
+        <p class="lede">Your design and brand shape how your website feels. Experienced web-specific design can prevent print conventions from becoming costly development problems.</p>
+      </div>
+      <div class="design-grid">
+        <article class="package card"><h3>Consulting Package</h3><p>We review new or established designs, identify areas that do not translate well to a fluid medium, and recommend practical alternatives that keep your existing brand alive.</p><div class="investment"><span>Investment average</span><strong>Request a bid estimate or hourly pricing</strong></div></article>
+        <article class="package card"><h3>Basic Brand Package</h3><p>Includes an accessible web color palette, basic web style guide, mood board, and font direction. Deliverables include an optional revision phase.</p><div class="investment"><span>One-time investment average</span><strong>$1,500</strong></div></article>
+        <article class="package card"><h3>Complete Brand & Theming</h3><p>Includes a complete color, mood, and web brand guide followed by a custom theme with tailored elements, button styles, widgets, and rich content treatments.</p><div class="investment"><span>Investment average</span><strong>Request a bid estimate with hourly pricing</strong></div></article>
+      </div>
+    </div>
+  </section>
+
+  <TestimonialBand featured={["rebecca-b", "bryan-o"]} />
+</BaseLayout>
+
+<style>
+  .pricing-hero { background: linear-gradient(145deg, #f7f9ff, #e7edff); }
+  .section-heading { max-width: 56rem; margin-bottom: 2.5rem; }
+  .package-grid { display: grid; grid-template-columns: repeat(2, minmax(18rem, 1fr)); align-items: start; gap: 1.5rem; }
+  .package { padding: clamp(1.5rem, 4vw, 2.5rem); }
+  .package p { color: var(--ink-soft); }
+  .package.featured { color: white; background: linear-gradient(145deg, var(--slate), var(--navy)); border: 0; }
+  .package.featured h3, .package.featured h4 { color: white; }
+  .package.featured p, .package.featured li { color: #e1e8fa; }
+  .medium-package { border-top: 5px solid var(--blue); }
+  .medium-package .package-label { color: var(--blue) !important; }
+  .custom-package { grid-column: 1 / -1; width: min(100%, 58rem); justify-self: center; }
+  .package-label { color: var(--periwinkle) !important; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
+  .package ul { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem 1.4rem; padding-left: 1.2rem; }
+  .investment { display: grid; gap: 0.2rem; margin-block: 1.8rem 1.25rem; padding-top: 1.25rem; border-top: 1px solid rgb(148 163 184 / 0.45); }
+  .investment span { color: inherit; font-size: 0.75rem; font-weight: 800; letter-spacing: 0.09em; text-transform: uppercase; opacity: 0.75; }
+  .investment strong { font-size: 1.2rem; line-height: 1.35; }
+  .package small { display: block; margin-top: -0.6rem; margin-bottom: 1.4rem; color: var(--ink-soft); }
+  .small-package-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+  .design-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+  @media (max-width: 52rem) {
+    .package-grid, .small-package-grid, .design-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 38rem) { .package ul { grid-template-columns: 1fr; } }
+</style>

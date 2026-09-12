@@ -1,0 +1,68 @@
+---
+import { Image } from "astro:assets";
+import logo from "../assets/images/brand/logo.png";
+import { site } from "../data/site";
+
+const currentPath = Astro.url.pathname;
+const isCurrent = (href: string) => href === "/" ? currentPath === "/" : currentPath.startsWith(href);
+---
+
+<header class="site-header" id="top">
+  <div class="header-inner container-wide">
+    <a class="brand" href="/" aria-label={`${site.name} home`}>
+      <Image src={logo} alt="Dev by Design" width={272} height={43} loading="eager" />
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <ul>
+        {site.navigation.map((item) => (
+          <li><a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>{item.label}</a></li>
+        ))}
+      </ul>
+    </nav>
+
+    <details class="mobile-menu">
+      <summary aria-label="Open navigation menu">
+        <span class="menu-lines" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="sr-only">Menu</span>
+      </summary>
+      <nav aria-label="Mobile navigation">
+        <ul>
+          {site.navigation.map((item) => (
+            <li><a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>{item.label}</a></li>
+          ))}
+        </ul>
+      </nav>
+    </details>
+  </div>
+</header>
+
+<style>
+  .site-header { position: relative; z-index: 50; color: white; background: var(--slate); box-shadow: 0 3px 12px rgb(15 23 42 / 0.2); }
+  .header-inner { display: flex; min-height: 4.7rem; align-items: center; justify-content: space-between; gap: 2rem; }
+  .brand { display: inline-flex; border-radius: 0.25rem; }
+  .brand img { width: min(17rem, 48vw); height: auto; }
+  ul { display: flex; align-items: center; gap: clamp(1rem, 2.3vw, 2rem); margin: 0; padding: 0; list-style: none; }
+  nav a { position: relative; display: inline-flex; padding-block: 1rem; color: white; font-size: 0.95rem; font-weight: 650; text-decoration: none; }
+  nav a::after { position: absolute; right: 0; bottom: 0.65rem; left: 0; height: 2px; content: ""; background: var(--periwinkle); transform: scaleX(0); transition: transform 160ms ease; }
+  nav a:hover, nav a[aria-current="page"] { color: white; }
+  nav a:hover::after, nav a[aria-current="page"]::after { transform: scaleX(1); }
+  .mobile-menu { display: none; }
+  @media (max-width: 48rem) {
+    .site-header { position: sticky; top: 0; }
+    .header-inner { min-height: 4rem; }
+    .desktop-nav { display: none; }
+    .brand img { width: 12rem; }
+    .mobile-menu { display: block; }
+    summary { display: grid; width: 2.75rem; height: 2.75rem; cursor: pointer; list-style: none; place-items: center; border-radius: 50%; }
+    summary::-webkit-details-marker { display: none; }
+    .menu-lines { display: grid; width: 1.35rem; gap: 0.27rem; }
+    .menu-lines i { height: 2px; background: white; transition: transform 160ms ease, opacity 160ms ease; }
+    details[open] .menu-lines i:first-child { transform: translateY(6px) rotate(45deg); }
+    details[open] .menu-lines i:nth-child(2) { opacity: 0; }
+    details[open] .menu-lines i:last-child { transform: translateY(-6px) rotate(-45deg); }
+    .mobile-menu nav { position: absolute; top: 100%; right: 0; left: 0; padding: 0.75rem 1rem 1.25rem; background: var(--slate); box-shadow: 0 10px 20px rgb(15 23 42 / 0.24); }
+    .mobile-menu ul { display: grid; gap: 0; }
+    .mobile-menu a { display: flex; justify-content: center; padding: 0.85rem; }
+  }
+</style>

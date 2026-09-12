@@ -1,0 +1,137 @@
+:root {
+  color-scheme: light;
+  --ink: #1e293b;
+  --ink-soft: #475569;
+  --navy: #071955;
+  --navy-deep: #04103c;
+  --slate: #293442;
+  --slate-light: #334155;
+  --blue: #315bbd;
+  --blue-hover: #23499e;
+  --periwinkle: #aebcea;
+  --periwinkle-pale: #eef2ff;
+  --surface: #ffffff;
+  --surface-soft: #f7f7f8;
+  --line: #d8dee9;
+  --shadow-sm: 0 4px 14px rgb(15 23 42 / 0.1);
+  --shadow-lg: 0 22px 55px rgb(15 23 42 / 0.16);
+  --radius-sm: 0.65rem;
+  --radius: 1.25rem;
+  --radius-lg: 1.8rem;
+  --container: 71rem;
+  --container-wide: 78rem;
+  --font-body: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: "Roboto Slab", Rockwell, Georgia, serif;
+  --step--1: clamp(0.92rem, 0.88rem + 0.15vw, 1rem);
+  --step-0: clamp(1rem, 0.95rem + 0.2vw, 1.1rem);
+  --step-1: clamp(1.22rem, 1.1rem + 0.5vw, 1.55rem);
+  --step-2: clamp(1.55rem, 1.32rem + 0.9vw, 2.15rem);
+  --step-3: clamp(2rem, 1.55rem + 1.8vw, 3.3rem);
+  --space-xs: 0.5rem;
+  --space-sm: 0.85rem;
+  --space-md: 1.4rem;
+  --space-lg: 2.25rem;
+  --space-xl: clamp(3.5rem, 7vw, 6.5rem);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--surface);
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  line-height: 1.68;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+img, svg { display: block; max-width: 100%; }
+a { color: #315bbd; text-underline-offset: 0.18em; }
+a:hover { color: #173d98; }
+button, input, textarea, select { font: inherit; }
+h1, h2, h3, h4 {
+  margin-block: 0 0.7em;
+  color: var(--ink);
+  font-family: var(--font-display);
+  line-height: 1.15;
+  text-wrap: balance;
+}
+h1 { font-size: var(--step-3); }
+h2 { font-size: var(--step-2); }
+h3 { font-size: var(--step-1); }
+p { margin-block: 0 1.2em; }
+:focus-visible { outline: 3px solid #f8c630; outline-offset: 4px; }
+::selection { color: white; background: var(--blue-hover); }
+
+.skip-link {
+  position: fixed;
+  z-index: 1000;
+  top: 0.75rem;
+  left: 0.75rem;
+  padding: 0.65rem 1rem;
+  color: white;
+  background: var(--navy);
+  border-radius: var(--radius-sm);
+  transform: translateY(-180%);
+}
+.skip-link:focus { color: white; transform: translateY(0); }
+.container { width: min(calc(100% - 2.5rem), var(--container)); margin-inline: auto; }
+.container-wide { width: min(calc(100% - 2.5rem), var(--container-wide)); margin-inline: auto; }
+.section { padding-block: var(--space-xl); }
+.section-soft { background: var(--surface-soft); }
+.eyebrow {
+  margin-bottom: 0.75rem;
+  color: #4165bd;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+.lede { max-width: 48rem; color: var(--ink-soft); font-size: var(--step-1); }
+.center { text-align: center; }
+.center .lede { margin-inline: auto; }
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  min-height: 3rem;
+  padding: 0.65rem 1.25rem;
+  border: 2px solid transparent;
+  border-radius: 0.7rem;
+  color: white;
+  background: var(--blue);
+  box-shadow: 0 8px 18px rgb(65 110 234 / 0.2);
+  font-weight: 750;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: transform 160ms ease, background-color 160ms ease, box-shadow 160ms ease;
+}
+.button:hover { color: white; background: var(--blue-hover); box-shadow: 0 12px 24px rgb(65 110 234 / 0.28); transform: translateY(-2px); }
+.button-secondary { color: var(--ink); background: white; border-color: var(--line); box-shadow: var(--shadow-sm); }
+.button-secondary:hover { color: var(--navy); background: var(--periwinkle-pale); }
+.card { background: white; border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow-sm); }
+.prose { max-width: 76ch; }
+.prose h2 { margin-top: 2.2em; }
+.prose h3 { margin-top: 1.8em; }
+.prose li + li { margin-top: 0.5rem; }
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 42rem) {
+  .container, .container-wide { width: min(calc(100% - 2rem), var(--container)); }
+  .section { padding-block: 3.5rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
+}

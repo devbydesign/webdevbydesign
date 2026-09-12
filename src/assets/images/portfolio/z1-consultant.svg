@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 960" role="img" aria-labelledby="title desc">
+  <title id="title">Z1 Consultant CRM strategy illustration</title>
+  <desc id="desc">An abstract dashboard with rising performance charts.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#183b57"/>
+      <stop offset="1" stop-color="#127b8b"/>
+    </linearGradient>
+    <linearGradient id="chart" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#59d4d1"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="960" fill="url(#bg)"/>
+  <circle cx="1260" cy="160" r="310" fill="#fff" opacity=".06"/>
+  <circle cx="150" cy="850" r="360" fill="#55d5d0" opacity=".12"/>
+  <text x="110" y="190" fill="#fff" font-family="Arial, sans-serif" font-size="96" font-weight="700">Z1 Consultant</text>
+  <text x="116" y="260" fill="#bceeed" font-family="Arial, sans-serif" font-size="34" letter-spacing="7">CRM STRATEGY · ZOHO CONSULTING</text>
+  <g transform="translate(110 360)">
+    <rect width="1220" height="430" rx="28" fill="#fff" opacity=".96"/>
+    <rect x="55" y="55" width="240" height="80" rx="14" fill="#e6f4f5"/>
+    <rect x="330" y="55" width="240" height="80" rx="14" fill="#e6f4f5"/>
+    <rect x="605" y="55" width="240" height="80" rx="14" fill="#e6f4f5"/>
+    <path d="M75 350 230 286 360 305 525 210 655 250 820 145 990 180 1145 90" fill="none" stroke="url(#chart)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#127b8b"><circle cx="230" cy="286" r="14"/><circle cx="525" cy="210" r="14"/><circle cx="820" cy="145" r="14"/><circle cx="1145" cy="90" r="14"/></g>
+  </g>
+</svg>

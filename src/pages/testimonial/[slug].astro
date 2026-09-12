@@ -1,0 +1,76 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { testimonials, type Testimonial } from "../../data/testimonials";
+import { emailHref } from "../../data/site";
+
+export function getStaticPaths() {
+  return testimonials.map((testimonial) => ({ params: { slug: testimonial.slug }, props: { testimonial } }));
+}
+
+interface Props { testimonial: Testimonial; }
+const { testimonial } = Astro.props;
+const index = testimonials.findIndex((item) => item.slug === testimonial.slug);
+const previous = testimonials[(index - 1 + testimonials.length) % testimonials.length];
+const next = testimonials[(index + 1) % testimonials.length];
+---
+
+<BaseLayout title={`${testimonial.name} Testimonial`} description={`Read ${testimonial.name}’s recommendation of Dev By Design and Katria Lesser.`}>
+  <article class="testimonial-page section">
+    <div class="container quote-layout">
+      <div class="quote-mark" aria-hidden="true">“</div>
+      <div>
+        <p class="eyebrow">Client testimonial</p>
+        <h1>{testimonial.name}</h1>
+        <blockquote>
+          {testimonial.quote.map((paragraph) => <p>{paragraph}</p>)}
+        </blockquote>
+        <footer>
+          <strong>{testimonial.role}</strong>
+          <span>{testimonial.organization}</span>
+          <time>{testimonial.date}</time>
+        </footer>
+      </div>
+    </div>
+  </article>
+
+  <nav class="testimonial-nav" aria-label="More testimonials">
+    <div class="container nav-inner">
+      <a href={`/testimonial/${previous.slug}/`}><span aria-hidden="true">←</span><small>Previous</small><strong>{previous.name}</strong></a>
+      <a href="/portfolio/" class="all-work"><small>Explore more</small><strong>View our work</strong></a>
+      <a href={`/testimonial/${next.slug}/`}><small>Next</small><strong>{next.name}</strong><span aria-hidden="true">→</span></a>
+    </div>
+  </nav>
+
+  <section class="section quote-cta">
+    <div class="container center">
+      <p class="eyebrow">Let’s work together</p>
+      <h2>Ready to start a conversation?</h2>
+      <a class="button" href={emailHref()}>Contact Dev By Design</a>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .testimonial-page { background: linear-gradient(145deg, #f8faff, #e9efff); }
+  .quote-layout { display: grid; grid-template-columns: auto minmax(0, 55rem); justify-content: center; gap: clamp(1rem, 5vw, 3rem); }
+  .quote-mark { color: var(--periwinkle); font-family: Georgia, serif; font-size: clamp(5rem, 12vw, 10rem); line-height: 0.8; }
+  blockquote { margin: 2rem 0; color: var(--ink); font-family: var(--font-display); font-size: var(--step-1); line-height: 1.65; }
+  blockquote p::before, blockquote p::after { content: none; }
+  footer { display: grid; width: fit-content; padding-top: 1.2rem; border-top: 2px solid var(--periwinkle); }
+  footer strong { font-size: 1.05rem; }
+  footer span, footer time { color: var(--ink-soft); }
+  .testimonial-nav { border-block: 1px solid var(--line); }
+  .nav-inner { display: grid; grid-template-columns: 1fr auto 1fr; align-items: stretch; }
+  .nav-inner a { display: grid; grid-template-columns: auto 1fr; align-content: center; gap: 0.05rem 0.8rem; min-height: 7rem; padding: 1rem; color: var(--ink); text-decoration: none; }
+  .nav-inner a:last-child { grid-template-columns: 1fr auto; text-align: right; }
+  .nav-inner a span { grid-row: span 2; align-self: center; color: var(--blue-hover); font-size: 1.5rem; }
+  .nav-inner small { color: var(--ink-soft); }
+  .all-work { display: grid !important; grid-template-columns: 1fr !important; padding-inline: 2.5rem !important; text-align: center !important; border-inline: 1px solid var(--line); }
+  .quote-cta { padding-block: 4rem; }
+  @media (max-width: 42rem) {
+    .quote-layout { grid-template-columns: 1fr; }
+    .quote-mark { height: 3rem; }
+    .nav-inner { grid-template-columns: 1fr 1fr; }
+    .all-work { display: none !important; }
+  }
+</style>

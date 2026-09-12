@@ -1,0 +1,90 @@
+---
+import { Image } from "astro:assets";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TestimonialBand from "../components/TestimonialBand.astro";
+import { portfolio } from "../data/portfolio";
+import { emailHref } from "../data/site";
+---
+
+<BaseLayout title="Portfolio" description="Explore website design, development, theming, and content work by Dev By Design for businesses, nonprofits, and universities.">
+  <header class="portfolio-intro section">
+    <div class="container">
+      <p class="eyebrow">Selected work</p>
+      <h1>Designed with purpose.<br /><span>Built to work beautifully.</span></h1>
+      <div class="intro-grid">
+        <p class="lede">Over the years, we’ve worked with businesses, nonprofits, and universities to design, build, edit, and improve their websites. Below is a selection of projects shaped through thoughtful design, front-end development, content architecture, and ongoing collaboration.</p>
+        <p>We contributed either design, development, or both to the websites listed below. Some screenshots show today’s site; our work may relate to an earlier version.</p>
+      </div>
+    </div>
+  </header>
+
+  <section class="portfolio-section" aria-label="Selected portfolio projects">
+    <div class="portfolio-grid container-wide">
+      {portfolio.map((project) => (
+        <article class:list={["project-card", project.size]}>
+          <a href={project.url} target="_blank" rel="noreferrer" aria-label={`Visit ${project.name} website`}>
+            <Image
+              src={project.image}
+              alt={`Current website view for ${project.name}`}
+              widths={[480, 800, 1200]}
+              sizes={project.size === "wide" ? "(max-width: 760px) 100vw, 66vw" : "(max-width: 760px) 100vw, 33vw"}
+              style={`object-position: ${project.imagePosition || "50% 18%"}`}
+            />
+            <span class="project-shade"></span>
+            <div class="project-copy">
+              <p>{project.services}</p>
+              <h2>{project.name}</h2>
+              <div class="project-detail">
+                <span>{project.description}</span>
+                {project.historical && <small>Work includes an earlier version of this website.</small>}
+              </div>
+              <span class="visit">Visit site <span aria-hidden="true">↗</span></span>
+            </div>
+          </a>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="section portfolio-cta">
+    <div class="container center">
+      <p class="eyebrow">Your project could be next</p>
+      <h2>Let’s make something useful—and memorable.</h2>
+      <p class="lede">Tell us what you’re building, improving, or untangling. We’ll help you find a clear way forward.</p>
+      <a class="button" href={emailHref("Let’s discuss a website project")}>Start a conversation <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+
+  <TestimonialBand featured={["john-l", "bryan-o"]} />
+</BaseLayout>
+
+<style>
+  .portfolio-intro { color: white; background: radial-gradient(circle at 80% 15%, rgb(95 134 244 / 0.34), transparent 32%), linear-gradient(140deg, var(--slate) 0%, var(--navy) 100%); }
+  .portfolio-intro h1 { max-width: 60rem; color: white; font-size: clamp(2.8rem, 6.4vw, 5.8rem); letter-spacing: -0.045em; }
+  .portfolio-intro h1 span { color: var(--periwinkle); }
+  .portfolio-intro .eyebrow { color: #dce5ff; }
+  .intro-grid { display: grid; grid-template-columns: minmax(20rem, 1.6fr) minmax(15rem, 0.8fr); gap: clamp(2rem, 8vw, 7rem); margin-top: 3rem; }
+  .intro-grid p { margin: 0; color: #dbe4fa; }
+  .portfolio-section { padding-block: clamp(1.5rem, 4vw, 3.5rem); background: #edf1f8; }
+  .portfolio-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); grid-auto-flow: dense; gap: 1.25rem; }
+  .project-card { position: relative; min-height: 26rem; overflow: hidden; border-radius: var(--radius); background: var(--slate); box-shadow: var(--shadow-lg); }
+  .project-card.wide { grid-column: span 2; min-height: 32rem; }
+  .project-card a { position: absolute; inset: 0; color: white; text-decoration: none; }
+  .project-card :global(img) { width: 100%; height: 100%; object-fit: cover; transition: transform 500ms cubic-bezier(.2,.8,.2,1); }
+  .project-shade { position: absolute; inset: 0; background: linear-gradient(0deg, rgb(3 10 37 / 0.98) 0%, rgb(3 10 37 / 0.72) 42%, rgb(3 10 37 / 0.17) 76%, rgb(3 10 37 / 0.06) 100%); transition: background 250ms ease; }
+  .project-copy { position: absolute; right: 0; bottom: 0; left: 0; padding: clamp(1.5rem, 4vw, 2.5rem); }
+  .project-copy > p { margin-bottom: 0.45rem; color: #ced9fb; font-size: 0.76rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+  .project-copy h2 { margin-bottom: 0.7rem; color: white; font-size: clamp(1.55rem, 3vw, 2.6rem); }
+  .project-detail { display: grid; max-width: 44rem; color: #eef3ff; line-height: 1.5; }
+  .project-detail small { margin-top: 0.45rem; color: #c5d0ee; }
+  .visit { display: inline-flex; margin-top: 1.15rem; gap: 0.35rem; font-weight: 800; }
+  .project-card a:hover :global(img) { transform: scale(1.035); }
+  .project-card a:hover .project-shade { background: linear-gradient(0deg, rgb(3 10 37 / 0.99) 0%, rgb(3 10 37 / 0.78) 48%, rgb(3 10 37 / 0.2) 100%); }
+  .portfolio-cta .lede { margin-inline: auto; }
+  .portfolio-cta .button { margin-top: 1rem; }
+  @media (max-width: 48rem) {
+    .intro-grid { grid-template-columns: 1fr; }
+    .portfolio-grid { grid-template-columns: 1fr; }
+    .project-card, .project-card.wide { grid-column: span 1; min-height: 29rem; }
+  }
+</style>

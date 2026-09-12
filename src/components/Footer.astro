@@ -1,0 +1,46 @@
+---
+import { emailHref, site } from "../data/site";
+---
+
+<footer class="site-footer">
+  <div class="footer-main">
+    <div class="footer-grid container">
+      <section aria-labelledby="connect-heading">
+        <h2 id="connect-heading">Connect</h2>
+        <ul>
+          <li><a href="/about-us/">About Us</a></li>
+          <li><a href={emailHref("Schedule a call with Dev By Design")}>Schedule a Call</a></li>
+          <li><a href={site.linkedIn} rel="noreferrer">LinkedIn</a></li>
+        </ul>
+      </section>
+      <section aria-labelledby="questions-heading">
+        <h2 id="questions-heading">Have Questions?</h2>
+        <p>We are happy to explain our process and answer any questions you may have.</p>
+        <a class="button" href={emailHref()}>Contact Us <span aria-hidden="true">→</span></a>
+      </section>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© {new Date().getFullYear()} {site.legalName}. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer { color: white; background: var(--navy); }
+  .footer-main { padding-block: 4.2rem 3.6rem; background: linear-gradient(140deg, #182c78 0%, var(--navy) 45%, var(--navy-deep) 100%); }
+  .footer-grid { display: grid; grid-template-columns: minmax(12rem, 0.75fr) minmax(18rem, 1.4fr); gap: clamp(3rem, 9vw, 8rem); }
+  h2 { margin-bottom: 0.5rem; color: white; font-family: var(--font-body); font-size: 1.7rem; }
+  p { max-width: 30rem; }
+  ul { margin: 0; padding: 0; list-style: none; }
+  li + li { margin-top: 0.2rem; }
+  a:not(.button) { color: white; text-decoration: none; }
+  a:not(.button):hover { color: white; text-decoration: underline; }
+  .footer-bottom { background: var(--slate); }
+  .footer-bottom-inner { display: flex; min-height: 5rem; align-items: center; justify-content: center; text-align: center; }
+  .footer-bottom p { margin: 0; font-size: 0.9rem; }
+  @media (max-width: 42rem) {
+    .footer-grid { grid-template-columns: 1fr; gap: 2.4rem; }
+  }
+</style>

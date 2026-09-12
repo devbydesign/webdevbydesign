@@ -1,0 +1,174 @@
+---
+import { Image } from "astro:assets";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TestimonialBand from "../components/TestimonialBand.astro";
+import hero from "../assets/images/home/hero-v2.png";
+import stanfordLogo from "../assets/images/partners/stanford.png";
+import pantheonLogo from "../assets/images/partners/pantheon.png";
+import designRushLogo from "../assets/images/partners/designrush.png";
+import rbbLogo from "../assets/images/partners/rbb.png";
+import { emailHref } from "../data/site";
+
+const services = [
+  { icon: "✦", title: "Web Design", text: "Using a distinctive design skill set, we stay current with evolving technologies and the endless screen sizes a flexible, fluid website must support." },
+  { icon: "</>", title: "Web Development", text: "High-quality back-end code and thoughtful process automation help future-proof your website and improve scalability." },
+  { icon: "◎", title: "UX Testing", text: "Easy, intuitive experiences are a priority. Without a clear and smooth design, using a website can feel like navigating a maze." },
+];
+
+const values = [
+  { icon: "user", title: "User Focused", paragraphs: ["Clear communication with our customers about their needs and goals.", "Fluid, web-friendly design that presents each customer’s brand effectively."] },
+  { icon: "code", title: "Efficient Work", paragraphs: ["Desired website features architected with efficient coding practices.", "Tools that automate processes, save customers time, and present data clearly."] },
+  { icon: "star", title: "Quality Product", paragraphs: ["Code maintained regularly with security in mind.", "Reliable hosting and deployment options that can scale with your work."] },
+];
+---
+
+<BaseLayout title="Dev By Design" description="Dev By Design creates accessible, effective websites with thoughtful design, dependable development, and user-focused testing.">
+  <section class="hero" aria-labelledby="home-title">
+    <Image src={hero} alt="A web designer working at a computer in a creative studio" width={1938} height={812} loading="eager" />
+    <div class="hero-shade"></div>
+    <div class="hero-content container">
+      <p class="eyebrow">Web design · Development · UX</p>
+      <h1 id="home-title">Effective development<br />by design.</h1>
+      <p>Beautifully designed, strategically built websites for organizations doing meaningful work.</p>
+      <div class="hero-actions">
+        <a class="button" href="/portfolio/">Explore our work</a>
+        <a class="text-link" href={emailHref()}>Start a conversation <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section services" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="section-heading center">
+        <p class="eyebrow">What we do</p>
+        <h2 id="services-heading">Our Services</h2>
+      </div>
+      <div class="service-grid">
+        {services.map((service) => (
+          <article class="card service-card">
+            <span class="service-icon" aria-hidden="true">{service.icon}</span>
+            <h3>{service.title}</h3>
+            <p>{service.text}</p>
+          </article>
+        ))}
+      </div>
+      <div class="center"><a class="button" href="/portfolio/">View Portfolio <span aria-hidden="true">→</span></a></div>
+    </div>
+  </section>
+
+  <section class="section mission" aria-labelledby="mission-heading">
+    <div class="container">
+      <div class="section-heading center">
+        <p class="eyebrow">How we work</p>
+        <h2 id="mission-heading">Our Mission</h2>
+        <p class="lede">We design and architect websites efficiently, creating functional, beautiful experiences with careful attention to usability, accessibility, and professional detail.</p>
+      </div>
+      <div class="value-grid">
+        {values.map((value) => (
+          <article>
+            <svg viewBox="0 0 48 48" width="48" height="48" aria-hidden="true">
+              {value.icon === "user" && <><circle cx="24" cy="15" r="7"></circle><path d="M10 40c0-9 5-14 14-14s14 5 14 14z"></path></>}
+              {value.icon === "code" && <><path d="m17 13-10 11 10 11M31 13l10 11-10 11M28 8l-8 32"></path></>}
+              {value.icon === "star" && <path d="m24 5 6 12 13 2-9.5 9.5L36 42l-12-6-12 6 2.5-13.5L5 19l13-2z"></path>}
+            </svg>
+            <h3>{value.title}</h3>
+            {value.paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section pricing-summary" aria-labelledby="pricing-summary-heading">
+    <div class="container pricing-layout">
+      <div>
+        <p class="eyebrow">Solutions shaped around you</p>
+        <h2 id="pricing-summary-heading">Packages & Pricing</h2>
+      </div>
+      <div class="prose">
+        <p>Every website has a different audience, goal, design, and set of features. We provide custom solutions built around what you need. At Dev By Design, we know that your website should be a custom product, and we believe attention to detail produces high-quality work.</p>
+        <p>Our packages include small-business websites, custom development, testing, content editing and proofreading, consulting, and brand theming.</p>
+        <div class="summary-actions">
+          <a class="button" href={emailHref()}>Get Started <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="/pricing/">View pricing</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section credentials" aria-labelledby="credentials-heading">
+    <div class="container">
+      <div class="section-heading">
+        <p class="eyebrow">Trusted relationships</p>
+        <h2 id="credentials-heading">Vendor Credentials</h2>
+      </div>
+      <div class="credential-grid">
+        <article class="credential credential-stanford">
+          <Image src={stanfordLogo} alt="Stanford University" width={200} height={200} />
+          <div><h3>Stanford University Approved Vendor</h3><p>Approved for Stanford University purchase orders. Contact us for the vendor ID.</p></div>
+        </article>
+        <article class="credential">
+          <a href="https://pantheon.io/partners/agency-preferred-pricing" rel="noreferrer">
+            <Image src={pantheonLogo} alt="Pantheon" width={400} height={118} />
+          </a>
+          <div><h3>Pantheon Partner</h3><p>Ask about Pantheon Partner preferred pricing discounts.</p></div>
+        </article>
+        <article class="credential partner-stack">
+          <a href="https://www.designrush.com/agency/profile/dev-by-design" rel="noreferrer"><Image src={designRushLogo} alt="DesignRush verified agency" width={382} height={99} /></a>
+          <a href="https://rbbmarketing.com/" rel="noreferrer"><Image src={rbbLogo} alt="RBB Marketing" width={842} height={215} /></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <TestimonialBand featured={["vicki-r", "john-l"]} />
+</BaseLayout>
+
+<style>
+  .hero { position: relative; display: grid; min-height: clamp(34rem, 67vw, 41rem); align-items: end; overflow: hidden; color: white; background: #101417; }
+  .hero > :global(img) { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 58% center; }
+  .hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgb(3 9 20 / 0.78) 0%, rgb(3 9 20 / 0.38) 48%, rgb(3 9 20 / 0.1) 75%), linear-gradient(0deg, rgb(3 9 20 / 0.68), transparent 55%); }
+  .hero::after { position: absolute; z-index: 1; right: 0; bottom: 0; left: 0; height: 10rem; content: ""; background: linear-gradient(0deg, rgb(3 9 20 / 0.98), transparent); pointer-events: none; }
+  .hero-content { position: relative; z-index: 2; padding-block: clamp(4rem, 8vw, 6.5rem); }
+  .hero h1 { max-width: 49rem; margin-bottom: 1rem; color: white; font-size: clamp(2.7rem, 6vw, 5.5rem); letter-spacing: -0.035em; }
+  .hero p:not(.eyebrow) { max-width: 39rem; font-size: var(--step-1); }
+  .hero .eyebrow { color: #dce5ff; }
+  .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1.25rem; margin-top: 2rem; }
+  .text-link { color: white; font-weight: 750; }
+  .text-link:hover { color: white; }
+  .section-heading { margin-bottom: clamp(2rem, 5vw, 3.5rem); }
+  .service-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-bottom: 2.25rem; }
+  .service-card { position: relative; min-height: 18rem; padding: 2rem; overflow: hidden; }
+  .service-icon { display: grid; width: 3.2rem; height: 3.2rem; margin-bottom: 2rem; place-items: center; color: white; background: var(--slate); border-radius: 0.8rem; font-family: ui-monospace, monospace; font-size: 1.15rem; font-weight: 900; }
+  .service-card p { color: var(--ink-soft); }
+  .mission { background: linear-gradient(145deg, #f5f7ff, #dbe4ff); }
+  .value-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(2rem, 5vw, 4rem); }
+  .value-grid article { text-align: center; }
+  .value-grid svg { margin: 0 auto 1.25rem; fill: none; stroke: var(--slate-light); stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.5; }
+  .value-grid p { color: var(--ink-soft); }
+  .pricing-layout { display: grid; grid-template-columns: minmax(15rem, 0.75fr) minmax(20rem, 1.5fr); gap: clamp(2rem, 8vw, 7rem); }
+  .summary-actions { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 2rem; }
+  .credentials { background: var(--surface-soft); }
+  .credential-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+  .credential { display: flex; min-height: 18rem; flex-direction: column; justify-content: center; padding: 1.5rem; background: white; border: 1px solid var(--line); border-radius: var(--radius); }
+  .credential :global(img) { max-width: 13rem; max-height: 6rem; margin: 0 auto 1.4rem; object-fit: contain; }
+  .credential-stanford { flex-direction: row; align-items: center; gap: 1.3rem; }
+  .credential-stanford :global(img) { width: 7rem; max-height: 9rem; margin: 0; }
+  .credential h3 { font-family: var(--font-body); font-size: 1.15rem; }
+  .credential p { margin: 0; color: var(--ink-soft); font-size: var(--step--1); }
+  .partner-stack { gap: 1.4rem; }
+  .partner-stack :global(img) { margin-bottom: 0; }
+  @media (max-width: 52rem) {
+    .service-grid, .credential-grid { grid-template-columns: 1fr; }
+    .service-card { min-height: auto; }
+    .value-grid { grid-template-columns: 1fr; }
+    .pricing-layout { grid-template-columns: 1fr; }
+    .credential { min-height: 13rem; }
+  }
+  @media (max-width: 42rem) {
+    .hero { min-height: 34rem; }
+    .hero > :global(img) { object-position: 66% center; }
+    .hero-shade { background: linear-gradient(0deg, rgb(3 9 20 / 0.87), rgb(3 9 20 / 0.08) 78%); }
+    .hero-content { padding-bottom: 3.5rem; }
+  }
+</style>

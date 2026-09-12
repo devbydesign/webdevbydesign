@@ -1,0 +1,206 @@
+{
+  "generatedAt": "2026-09-12T00:59:14.878Z",
+  "baseUrl": "http://127.0.0.1:4321",
+  "results": [
+    {
+      "route": "/",
+      "viewport": "desktop",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/about-us/",
+      "viewport": "desktop",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/portfolio/",
+      "viewport": "desktop",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/pricing/",
+      "viewport": "desktop",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/contact-us/",
+      "viewport": "desktop",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/testimonial/bryan-o/",
+      "viewport": "desktop",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/testimonial/sherwin-h/",
+      "viewport": "desktop",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/testimonial/vicki-r/",
+      "viewport": "desktop",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/testimonial/john-l/",
+      "viewport": "desktop",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/testimonial/rebecca-b/",
+      "viewport": "desktop",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/",
+      "viewport": "mobile",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/about-us/",
+      "viewport": "mobile",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/portfolio/",
+      "viewport": "mobile",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/pricing/",
+      "viewport": "mobile",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/contact-us/",
+      "viewport": "mobile",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/testimonial/bryan-o/",
+      "viewport": "mobile",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/testimonial/sherwin-h/",
+      "viewport": "mobile",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/testimonial/vicki-r/",
+      "viewport": "mobile",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/testimonial/john-l/",
+      "viewport": "mobile",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    },
+    {
+      "route": "/testimonial/rebecca-b/",
+      "viewport": "mobile",
+      "overflow": null,
+      "backToTop": {
+        "appearsAtHalfway": true,
+        "returnsToTop": true
+      },
+      "violations": []
+    }
+  ]
+}

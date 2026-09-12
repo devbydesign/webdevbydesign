@@ -1,0 +1,51 @@
+<nav aria-label="Page controls">
+  <a class="back-to-top" href="#top" aria-label="Back to top" data-back-to-top>
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+      <path d="m6 14 6-6 6 6"></path>
+    </svg>
+  </a>
+</nav>
+
+<script>
+  const control = document.querySelector<HTMLElement>("[data-back-to-top]");
+  const updateVisibility = () => {
+    const availableScroll = document.documentElement.scrollHeight - window.innerHeight;
+    control?.classList.toggle("is-visible", availableScroll > 0 && window.scrollY >= availableScroll / 2);
+  };
+
+  updateVisibility();
+  control?.addEventListener("click", (event) => {
+    event.preventDefault();
+    const behavior = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
+    window.scrollTo({ top: 0, behavior });
+  });
+  window.addEventListener("scroll", updateVisibility, { passive: true });
+  window.addEventListener("resize", updateVisibility);
+</script>
+
+<style>
+  .back-to-top {
+    position: fixed;
+    z-index: 50;
+    right: clamp(1rem, 3vw, 2rem);
+    bottom: clamp(1rem, 3vw, 2rem);
+    display: grid;
+    width: 3rem;
+    height: 3rem;
+    place-items: center;
+    border: 1px solid rgb(255 255 255 / 0.24);
+    border-radius: 999px;
+    color: white;
+    background: var(--navy);
+    box-shadow: 0 10px 28px rgb(4 16 60 / 0.32);
+    opacity: 0;
+    pointer-events: none;
+    text-decoration: none;
+    transform: translateY(0.75rem);
+    transition: opacity 180ms ease, transform 180ms ease, background-color 180ms ease;
+  }
+  .back-to-top.is-visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+  .back-to-top:focus-visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+  .back-to-top:hover { color: white; background: var(--blue-hover); }
+  .back-to-top svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2.25; }
+</style>

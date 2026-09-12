@@ -1,0 +1,65 @@
+---
+import { Image } from "astro:assets";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TestimonialBand from "../components/TestimonialBand.astro";
+import { team } from "../data/team";
+---
+
+<BaseLayout title="About Us" description="Meet the experienced designers and developers behind Dev By Design.">
+  <header class="page-intro section">
+    <div class="container center">
+      <p class="eyebrow">Thoughtful work, built together</p>
+      <h1>About Us</h1>
+      <p class="lede">Dev By Design provides well-planned, professional development work and custom solutions that meet specific user needs. We focus on the details because good work requires dedication.</p>
+      <p>Our team blends complementary skills and backgrounds, united by a love for websites that are beautifully designed and strategically built.</p>
+    </div>
+  </header>
+
+  <section class="team section section-soft" aria-labelledby="team-heading">
+    <div class="container">
+      <div class="section-title">
+        <p class="eyebrow">Experience across the stack</p>
+        <h2 id="team-heading">Meet the Team</h2>
+      </div>
+      <div class="team-list">
+        {team.map((member, index) => (
+          <article class:list={["team-card", { reverse: index % 2 === 1 }]}>
+            <div class="portrait-wrap">
+              <Image src={member.image} alt={`Portrait of ${member.name}`} widths={[240, 360]} sizes="(max-width: 720px) 180px, 240px" style={`object-position: ${member.imagePosition || "50% 50%"}`} />
+            </div>
+            <div class="team-copy">
+              <h3>{member.name}</h3>
+              <p class="role">{member.title}</p>
+              {member.biography.map((paragraph) => <p>{paragraph}</p>)}
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <TestimonialBand featured={["sherwin-h", "rebecca-b"]} />
+</BaseLayout>
+
+<style>
+  .page-intro { padding-bottom: clamp(3rem, 6vw, 5rem); }
+  .page-intro p:last-child { max-width: 56rem; margin-inline: auto; color: var(--ink-soft); }
+  .section-title { margin-bottom: 2rem; }
+  .team-list { display: grid; gap: clamp(2rem, 5vw, 4rem); }
+  .team-card { display: grid; grid-template-columns: 13rem 1fr; align-items: start; gap: clamp(1.5rem, 4vw, 3rem); }
+  .team-card.reverse { grid-template-columns: 1fr 13rem; }
+  .team-card.reverse .portrait-wrap { grid-column: 2; grid-row: 1; }
+  .team-card.reverse .team-copy { grid-column: 1; grid-row: 1; }
+  .portrait-wrap { position: sticky; top: 6rem; aspect-ratio: 1; padding: 0.45rem; background: linear-gradient(145deg, var(--periwinkle), var(--slate)); border-radius: 50%; box-shadow: var(--shadow-lg); }
+  .portrait-wrap :global(img) { width: 100%; height: 100%; object-fit: cover; border: 5px solid white; border-radius: 50%; }
+  .team-copy { padding: clamp(1.5rem, 4vw, 2.7rem); background: white; border: 1px solid var(--line); border-radius: var(--radius-lg); box-shadow: var(--shadow-sm); }
+  .team-copy h3 { margin-bottom: 0.25rem; }
+  .role { color: #3156a5; font-weight: 800; }
+  .team-copy p:not(.role) { color: var(--ink-soft); }
+  @media (max-width: 45rem) {
+    .team-card, .team-card.reverse { grid-template-columns: 1fr; }
+    .team-card.reverse .portrait-wrap, .team-card.reverse .team-copy { grid-column: 1; grid-row: auto; }
+    .portrait-wrap { position: static; width: 10.5rem; }
+    .team-card.reverse .portrait-wrap { justify-self: end; }
+  }
+</style>

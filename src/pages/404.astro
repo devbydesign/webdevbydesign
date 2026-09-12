@@ -1,0 +1,22 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Page Not Found" description="The requested page could not be found." noindex>
+  <section class="section not-found">
+    <div class="container center">
+      <p class="error-code">404</p>
+      <h1>That page has moved—or never made it out of the wireframe.</h1>
+      <p class="lede">Let’s get you back to something useful.</p>
+      <div class="actions"><a class="button" href="/">Return home</a><a class="button button-secondary" href="/portfolio/">View portfolio</a></div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .not-found { min-height: 60vh; display: grid; place-items: center; background: linear-gradient(145deg, #f8faff, #e8eeff); }
+  .error-code { margin: 0; color: var(--periwinkle); font: 900 clamp(5rem, 18vw, 11rem)/0.9 var(--font-display); }
+  .not-found h1 { max-width: 58rem; margin-inline: auto; }
+  .not-found .lede { margin-inline: auto; }
+  .actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.8rem; margin-top: 2rem; }
+</style>

@@ -1,0 +1,25 @@
+{
+  "name": "webdevbydesign.com",
+  "private": true,
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "audit:live": "node scripts/audit-live-site.mjs",
+    "audit:built": "node scripts/audit-live-site.mjs http://127.0.0.1:4321/ audit/rebuilt-site",
+    "audit:a11y": "node scripts/audit-accessibility.mjs",
+    "assets:collect": "node scripts/collect-site-assets.mjs",
+    "inspect:live": "node scripts/inspect-live-page.mjs",
+    "dev": "astro dev",
+    "build": "astro build",
+    "check:built": "node scripts/check-built-site.mjs",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.3.2",
+    "axe-core": "^4.13.0",
+    "playwright-core": "^1.55.0"
+  }
+}

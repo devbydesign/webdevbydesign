@@ -1,0 +1,51 @@
+---
+import { getTestimonials } from "../data/testimonials";
+
+interface Props { featured?: string[]; }
+const { featured = ["vicki-r", "john-l"] } = Astro.props;
+const items = getTestimonials(featured);
+---
+
+<section class="testimonials" aria-labelledby="testimonials-heading">
+  <div class="container">
+    <div class="heading-row">
+      <div>
+        <p class="eyebrow">Client perspectives</p>
+        <h2 id="testimonials-heading">Testimonials</h2>
+      </div>
+      <a href="/testimonial/john-l/">Read client stories <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="testimonial-grid">
+      {items.map((item) => (
+        <article>
+          <div class="quote-mark" aria-hidden="true">“</div>
+          <blockquote><p>{item.excerpt}</p></blockquote>
+          <footer>
+            <strong>{item.name}</strong>
+            <a href={`/testimonial/${item.slug}/`} aria-label={`Read the full testimonial from ${item.name}`}>Read more</a>
+          </footer>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .testimonials { padding-block: var(--space-xl); color: white; background: linear-gradient(145deg, #363f96, var(--navy) 56%, var(--navy-deep)); }
+  .heading-row { display: flex; align-items: end; justify-content: space-between; gap: 1rem; margin-bottom: 1.75rem; }
+  h2 { margin: 0; color: white; }
+  .eyebrow { color: #d5defe; }
+  .heading-row > a { color: white; font-weight: 700; }
+  .testimonial-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(1rem, 3vw, 2.3rem); }
+  article { position: relative; display: flex; min-height: 16rem; flex-direction: column; padding: clamp(1.4rem, 3vw, 2rem); overflow: hidden; color: var(--ink); background: white; border-radius: var(--radius); box-shadow: var(--shadow-lg); }
+  .quote-mark { position: absolute; top: -1rem; right: 1.2rem; color: var(--periwinkle-pale); font-family: Georgia, serif; font-size: 8rem; line-height: 1; }
+  blockquote { position: relative; margin: 0; }
+  blockquote p { margin: 0; }
+  footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: auto; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+  footer a { font-weight: 700; }
+  @media (max-width: 42rem) {
+    .heading-row { align-items: start; flex-direction: column; }
+    .testimonial-grid { grid-template-columns: 1fr; }
+    article { min-height: auto; }
+  }
+</style>
