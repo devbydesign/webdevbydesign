@@ -1,15 +1,16 @@
 ---
 import { Image } from "astro:assets";
 import logo from "../assets/images/brand/logo.png";
-import { site } from "../data/site";
+import { pageHref, site } from "../data/site";
 
 const currentPath = Astro.url.pathname;
-const isCurrent = (href: string) => href === "/" ? currentPath === "/" : currentPath.startsWith(href);
+const homeHref = pageHref("/");
+const isCurrent = (href: string) => href === homeHref ? currentPath === homeHref : currentPath.startsWith(href);
 ---
 
 <header class="site-header" id="top">
   <div class="header-inner container-wide">
-    <a class="brand" href="/" aria-label={`${site.name} home`}>
+    <a class="brand" href={homeHref} aria-label={`${site.name} home`}>
       <Image src={logo} alt="Dev by Design" width={272} height={43} loading="eager" />
     </a>
 

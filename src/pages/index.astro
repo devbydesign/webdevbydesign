@@ -7,7 +7,7 @@ import stanfordLogo from "../assets/images/partners/stanford.png";
 import pantheonLogo from "../assets/images/partners/pantheon.png";
 import designRushLogo from "../assets/images/partners/designrush.png";
 import rbbLogo from "../assets/images/partners/rbb.png";
-import { emailHref } from "../data/site";
+import { emailHref, pageHref } from "../data/site";
 
 const services = [
   { icon: "✦", title: "Web Design", text: "Using a distinctive design skill set, we stay current with evolving technologies and the endless screen sizes a flexible, fluid website must support." },
@@ -31,7 +31,7 @@ const values = [
       <h1 id="home-title">Effective development<br />by design.</h1>
       <p>Beautifully designed, strategically built websites for organizations doing meaningful work.</p>
       <div class="hero-actions">
-        <a class="button" href="/portfolio/">Explore our work</a>
+        <a class="button" href={pageHref("/portfolio/")}>Explore our work</a>
         <a class="text-link" href={emailHref()}>Start a conversation <span aria-hidden="true">→</span></a>
       </div>
     </div>
@@ -52,7 +52,7 @@ const values = [
           </article>
         ))}
       </div>
-      <div class="center"><a class="button" href="/portfolio/">View Portfolio <span aria-hidden="true">→</span></a></div>
+      <div class="center"><a class="button" href={pageHref("/portfolio/")}>View Portfolio <span aria-hidden="true">→</span></a></div>
     </div>
   </section>
 
@@ -90,7 +90,7 @@ const values = [
         <p>Our packages include small-business websites, custom development, testing, content editing and proofreading, consulting, and brand theming.</p>
         <div class="summary-actions">
           <a class="button" href={emailHref()}>Get Started <span aria-hidden="true">↗</span></a>
-          <a class="button button-secondary" href="/pricing/">View pricing</a>
+          <a class="button button-secondary" href={pageHref("/pricing/")}>View pricing</a>
         </div>
       </div>
     </div>

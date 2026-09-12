@@ -1,3 +1,5 @@
 ---
-return Astro.redirect("/about-us/", 301);
+import { pageHref } from "../../data/site";
+
+return Astro.redirect(pageHref("/about-us/"), 301);
 ---

@@ -42,6 +42,8 @@ npm run audit:a11y
 
 The workflow at `.github/workflows/deploy.yml` builds and publishes the site whenever the `main` branch is pushed. In GitHub, select **Settings → Pages → Source: GitHub Actions**.
 
+The preview build uses `SITE_BASE: /webdevbydesign` because GitHub serves a project site at `devbydesign.github.io/webdevbydesign/`. When the custom domain is activated, change both `SITE_BASE` values in the deployment workflow to `/` so assets and navigation resolve from `webdevbydesign.com`.
+
 The custom domain is intentionally not activated in the repository yet. After the GitHub Pages preview has been reviewed:
 
 1. Add `webdevbydesign.com` as the custom domain in GitHub Pages settings.

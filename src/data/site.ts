@@ -1,3 +1,8 @@
+const basePath = import.meta.env.BASE_URL === "/" ? "" : import.meta.env.BASE_URL.replace(/\/$/, "");
+
+export const pageHref = (path = "/") =>
+  `${basePath}${path.startsWith("/") ? path : `/${path}`}`;
+
 export const site = {
   name: "Dev By Design",
   legalName: "Dev By Design LLC",
@@ -8,11 +13,11 @@ export const site = {
   description: "Professional web design, development, accessibility testing, and content services for businesses, nonprofits, and universities.",
   linkedIn: "https://www.linkedin.com/company/dev-by-design/about/",
   navigation: [
-    { label: "Home", href: "/" },
-    { label: "About", href: "/about-us/" },
-    { label: "Portfolio", href: "/portfolio/" },
-    { label: "Pricing", href: "/pricing/" },
-    { label: "Contact", href: "/contact-us/" },
+    { label: "Home", href: pageHref("/") },
+    { label: "About", href: pageHref("/about-us/") },
+    { label: "Portfolio", href: pageHref("/portfolio/") },
+    { label: "Pricing", href: pageHref("/pricing/") },
+    { label: "Contact", href: pageHref("/contact-us/") },
   ],
 } as const;
 

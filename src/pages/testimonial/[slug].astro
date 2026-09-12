@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { testimonials, type Testimonial } from "../../data/testimonials";
-import { emailHref } from "../../data/site";
+import { emailHref, pageHref } from "../../data/site";
 
 export function getStaticPaths() {
   return testimonials.map((testimonial) => ({ params: { slug: testimonial.slug }, props: { testimonial } }));
@@ -35,9 +35,9 @@ const next = testimonials[(index + 1) % testimonials.length];
 
   <nav class="testimonial-nav" aria-label="More testimonials">
     <div class="container nav-inner">
-      <a href={`/testimonial/${previous.slug}/`}><span aria-hidden="true">←</span><small>Previous</small><strong>{previous.name}</strong></a>
-      <a href="/portfolio/" class="all-work"><small>Explore more</small><strong>View our work</strong></a>
-      <a href={`/testimonial/${next.slug}/`}><small>Next</small><strong>{next.name}</strong><span aria-hidden="true">→</span></a>
+      <a href={pageHref(`/testimonial/${previous.slug}/`)}><span aria-hidden="true">←</span><small>Previous</small><strong>{previous.name}</strong></a>
+      <a href={pageHref("/portfolio/")} class="all-work"><small>Explore more</small><strong>View our work</strong></a>
+      <a href={pageHref(`/testimonial/${next.slug}/`)}><small>Next</small><strong>{next.name}</strong><span aria-hidden="true">→</span></a>
     </div>
   </nav>
 

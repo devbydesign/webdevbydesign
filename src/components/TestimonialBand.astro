@@ -1,5 +1,6 @@
 ---
 import { getTestimonials } from "../data/testimonials";
+import { pageHref } from "../data/site";
 
 interface Props { featured?: string[]; }
 const { featured = ["vicki-r", "john-l"] } = Astro.props;
@@ -13,7 +14,7 @@ const items = getTestimonials(featured);
         <p class="eyebrow">Client perspectives</p>
         <h2 id="testimonials-heading">Testimonials</h2>
       </div>
-      <a href="/testimonial/john-l/">Read client stories <span aria-hidden="true">→</span></a>
+      <a href={pageHref("/testimonial/john-l/")}>Read client stories <span aria-hidden="true">→</span></a>
     </div>
     <div class="testimonial-grid">
       {items.map((item) => (
@@ -22,7 +23,7 @@ const items = getTestimonials(featured);
           <blockquote><p>{item.excerpt}</p></blockquote>
           <footer>
             <strong>{item.name}</strong>
-            <a href={`/testimonial/${item.slug}/`} aria-label={`Read the full testimonial from ${item.name}`}>Read more</a>
+            <a href={pageHref(`/testimonial/${item.slug}/`)} aria-label={`Read the full testimonial from ${item.name}`}>Read more</a>
           </footer>
         </article>
       ))}

@@ -2,6 +2,7 @@ import { readdir, readFile, stat } from "node:fs/promises";
 import path from "node:path";
 
 const root = path.resolve("dist");
+const configuredBase = (process.env.SITE_BASE || "").replace(/\/$/, "");
 const htmlFiles = [];
 const walk = async (directory) => {
   for (const entry of await readdir(directory, { withFileTypes: true })) {
@@ -17,10 +18,13 @@ const exists = async (target) => { try { return (await stat(target)).isFile(); }
 const localTarget = (value) => {
   const url = new URL(value, "https://webdevbydesign.com");
   if (url.origin !== "https://webdevbydesign.com") return null;
-  if (url.pathname === "/404/") return path.join(root, "404.html");
-  if (url.pathname.endsWith("/")) return path.join(root, url.pathname, "index.html");
-  const direct = path.join(root, url.pathname);
-  return path.extname(url.pathname) ? direct : `${direct}.html`;
+  const pathname = configuredBase && (url.pathname === configuredBase || url.pathname.startsWith(`${configuredBase}/`))
+    ? url.pathname.slice(configuredBase.length) || "/"
+    : url.pathname;
+  if (pathname === "/404/") return path.join(root, "404.html");
+  if (pathname.endsWith("/")) return path.join(root, pathname, "index.html");
+  const direct = path.join(root, pathname);
+  return path.extname(pathname) ? direct : `${direct}.html`;
 };
 
 for (const file of htmlFiles) {

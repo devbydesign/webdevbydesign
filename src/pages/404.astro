@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { pageHref } from "../data/site";
 ---
 
 <BaseLayout title="Page Not Found" description="The requested page could not be found." noindex>
@@ -8,7 +9,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <p class="error-code">404</p>
       <h1>That page has moved—or never made it out of the wireframe.</h1>
       <p class="lede">Let’s get you back to something useful.</p>
-      <div class="actions"><a class="button" href="/">Return home</a><a class="button button-secondary" href="/portfolio/">View portfolio</a></div>
+      <div class="actions"><a class="button" href={pageHref("/")}>Return home</a><a class="button button-secondary" href={pageHref("/portfolio/")}>View portfolio</a></div>
     </div>
   </section>
 </BaseLayout>

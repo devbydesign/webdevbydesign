@@ -3,6 +3,7 @@ import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
   site: "https://webdevbydesign.com",
+  base: process.env.SITE_BASE || "/",
   output: "static",
   trailingSlash: "always",
   integrations: [
