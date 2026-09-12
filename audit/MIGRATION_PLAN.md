@@ -66,9 +66,9 @@ Retire and redirect:
 
 ## Pricing page
 
-1. Preserve all service categories and current published prices.
+1. Preserve all service categories and current published prices, with an added medium-business tier.
 2. Separate development, specialist, and design packages into scannable sections.
-3. Preserve the custom-development feature list.
+3. Present small- and medium-business packages side by side, with a full-width custom-development package beneath them.
 4. Link package actions directly to pre-addressed email messages.
 5. Use a responsive one-column layout on narrow screens.
 

@@ -20,10 +20,13 @@ const customFeatures = [
 const mediumFeatures = [
   "Six to twelve core pages",
   "Custom homepage and interior-page layouts",
+  "Reusable custom content sections and widgets",
+  "Blog, news, or resource-library functionality",
+  "Event, gallery, testimonial, or FAQ displays",
+  "Advanced contact and lead-generation forms",
+  "Newsletter, CRM, and social integrations",
   "Expanded content organization and entry support",
-  "Contact forms and practical third-party integrations",
-  "Responsive design and accessibility fundamentals",
-  "Search-friendly page structure and metadata",
+  "Accessibility, analytics, and search fundamentals",
   "Editor training and launch support",
 ];
 ---
@@ -45,15 +48,6 @@ const mediumFeatures = [
         <p class="lede">Every website has a different audience, goal, design, and set of features. We provide custom solutions because your website should be a custom product.</p>
       </div>
       <div class="package-grid">
-        <article class="package card medium-package">
-          <p class="package-label">More room to grow</p>
-          <h3>Medium Business Package</h3>
-          <p>For established businesses that need more custom content, richer page layouts, and room for integrations beyond a basic brochure website.</p>
-          <ul>{mediumFeatures.map((feature) => <li>{feature}</li>)}</ul>
-          <div class="investment"><span>Investment average</span><strong>$3,500–$6,000*</strong></div>
-          <small>*Final pricing reflects content volume, integrations, and the level of custom design required.</small>
-          <a class="button" href={emailHref("Medium Business Package inquiry")}>Discuss your project</a>
-        </article>
         <article class="package card">
           <h3>Small Business Package</h3>
           <p>For basic websites with four to six main pages, we offer fixed-price bids so you know exactly what you’re getting. We can also customize more freely at hourly rates.</p>
@@ -61,6 +55,15 @@ const mediumFeatures = [
           <div class="investment"><span>Investment average</span><strong>$2,000–$4,500*</strong></div>
           <small>*This is an average range. We regularly accept smaller-budget projects and are happy to work with your budget whenever possible.</small>
           <a class="button" href={emailHref("Small Business Package inquiry")}>Discuss your project</a>
+        </article>
+        <article class="package card medium-package">
+          <p class="package-label">More room to grow</p>
+          <h3>Medium Business Package</h3>
+          <p>For established businesses that need more custom content, richer page layouts, interactive widgets, and integrations beyond a basic brochure website.</p>
+          <ul>{mediumFeatures.map((feature) => <li>{feature}</li>)}</ul>
+          <div class="investment"><span>Investment average</span><strong>$3,500–$6,000*</strong></div>
+          <small>*Final pricing reflects content volume, integrations, and the level of custom design required.</small>
+          <a class="button" href={emailHref("Medium Business Package inquiry")}>Discuss your project</a>
         </article>
         <article class="package card featured custom-package">
           <p class="package-label">Built around your requirements</p>
@@ -110,13 +113,14 @@ const mediumFeatures = [
   .package-grid { display: grid; grid-template-columns: repeat(2, minmax(18rem, 1fr)); align-items: start; gap: 1.5rem; }
   .package { padding: clamp(1.5rem, 4vw, 2.5rem); }
   .package p { color: var(--ink-soft); }
-  .package.featured { color: white; background: linear-gradient(145deg, var(--slate), var(--navy)); border: 0; }
+  .package.featured { color: white; background: linear-gradient(145deg, #30488f 0%, #4666b8 100%); border: 0; }
   .package.featured h3, .package.featured h4 { color: white; }
-  .package.featured p, .package.featured li { color: #e1e8fa; }
+  .package.featured p, .package.featured li { color: #f1f4ff; }
   .medium-package { border-top: 5px solid var(--blue); }
   .medium-package .package-label { color: var(--blue) !important; }
-  .custom-package { grid-column: 1 / -1; width: min(100%, 58rem); justify-self: center; }
+  .custom-package { grid-column: 1 / -1; }
   .package-label { color: var(--periwinkle) !important; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
+  .package.featured .package-label { color: #f1f4ff !important; }
   .package ul { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem 1.4rem; padding-left: 1.2rem; }
   .investment { display: grid; gap: 0.2rem; margin-block: 1.8rem 1.25rem; padding-top: 1.25rem; border-top: 1px solid rgb(148 163 184 / 0.45); }
   .investment span { color: inherit; font-size: 0.75rem; font-weight: 800; letter-spacing: 0.09em; text-transform: uppercase; opacity: 0.75; }

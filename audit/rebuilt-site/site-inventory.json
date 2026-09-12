@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-09-12T00:57:36.812Z",
+  "capturedAt": "2026-09-12T01:12:35.379Z",
   "origin": "http://127.0.0.1:4321",
   "pages": [
     {
@@ -277,7 +277,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css",
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css",
           "http://127.0.0.1:4321/_astro/index.-wmP3uMH.css"
         ],
         "scripts": [
@@ -2501,7 +2501,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css",
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css",
           "http://127.0.0.1:4321/_astro/index.-wmP3uMH.css"
         ],
         "scripts": [
@@ -4642,7 +4642,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
         ],
         "scripts": [
           "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
@@ -6213,7 +6213,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
         ],
         "scripts": [
           "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
@@ -8001,7 +8001,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
         ],
         "scripts": [
           "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
@@ -10703,7 +10703,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
         ],
         "scripts": [
           "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
@@ -13004,7 +13004,7 @@
         "status": 200,
         "dimensions": {
           "width": 1440,
-          "height": 5065,
+          "height": 5102,
           "viewportHeight": 1000
         },
         "title": "Pricing | Dev By Design",
@@ -13031,11 +13031,11 @@
           },
           {
             "level": 3,
-            "text": "Medium Business Package"
+            "text": "Small Business Package"
           },
           {
             "level": 3,
-            "text": "Small Business Package"
+            "text": "Medium Business Package"
           },
           {
             "level": 3,
@@ -13131,13 +13131,13 @@
           },
           {
             "text": "Discuss your project",
-            "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Medium%20Business%20Package%20inquiry",
+            "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Small%20Business%20Package%20inquiry",
             "target": null,
             "ariaLabel": null
           },
           {
             "text": "Discuss your project",
-            "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Small%20Business%20Package%20inquiry",
+            "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Medium%20Business%20Package%20inquiry",
             "target": null,
             "ariaLabel": null
           },
@@ -13206,7 +13206,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
         ],
         "scripts": [
           "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
@@ -13411,7 +13411,7 @@
           },
           {
             "tag": "main",
-            "text": "FLEXIBLE SERVICES FOR DISTINCT NEEDS Pricing Dev By Design can help throughout the life of a professional website, with design, development, testing, content, and hosting consultation. DEVELOPMENT PACKAGES Drupal & WordPress Web Development Every website has a different audience, goal, design, and set of features. We provide custom solutions because your website should be a custom product. MORE ROOM TO GROW Medium Business Package For established businesses that need more custom content, richer page layouts, and room for integrations beyond a basic brochure website. Six to twelve core pages Custom homepage and interior-page layouts Expanded content organization and entry support Contact forms and practical third-party integrations Responsive design and accessibility fundamentals Search-friendly page structure and metadata Editor training and launch support INVESTMENT AVERAGE $3,500–$6,000* *Final pricing reflects content volume, integrations, and the level of custom design required. Discuss your project Small Business Package For basic websites with four to six main pages, we offer fixed-price bids so you know exactly what you’re getting. We can also customize more freely at hourly rates. We discuss your target audience, priorities, and desired functionality before outlining project tasks, timelines, and requested training. We focus on giving you a website that is easy to maintain and update. INVESTMENT AVERAGE $2,000–$4,500* *This is an average range. We regularly accept smaller-budget projects and are happy to work with your budget whenever possible. Discuss your project BUILT AROUND YOUR REQUIREMENTS Custom Development Package For larger projects, flexible hourly pricing allows your website to be built in phases and expanded as desired. We organize complex work into a clear, manageable plan. Our Drupal and WordPress experience spans content structure, automated displays, technical integrations, custom modules, and editing tools that make content easier to manage. Features you may wish to incorporate Easy-to-use content options for editors Advanced user roles with content-approval workflows Automated email alerts and page displays Social media integration Advanced calendars and feeds Pre-built styles for content pages Advanced form submissions and record tracking Responsive media for mobile and desktop Git tracking of website configuration Clean development-to-production workflows SEO optimization and marketing-tool integration INVESTMENT AVERAGE Request a bid estimate with hourly pricing Request an estimate FOCUSED EXPERTISE Specialist Services Testing Services We test across mobile, tablet, and desktop devices, checking cross-browser support, accessibility, usability, and opportunities for improvement. INVESTMENT AVERAGE $85 / hour Content Editing & Proofreading We provide detailed content editing and proofreading, image preparation, text formatting, and review for other content issues. INVESTMENT AVERAGE $65 / hour BRANDS DESIGNED FOR THE WEB Design Packages Your design and brand shape how your website feels. Experienced web-specific design can prevent print conventions from becoming costly development problems. Consulting Package We review new or established designs, identify areas that do not translate well to a fluid medium, and recommend practical alternatives that keep your existing brand alive. INVESTMENT AVERAGE Request a bid estimate or hourly pricing Basic Brand Package Includes an accessible web color palette, basic web style guide, mood board, and font direction. Deliverables include an optional revision phase. ONE-TIME INVESTMENT AVERAGE $1,500 Complete Brand & Theming Includes a complete color, mood, and web brand guide followed by a custom theme with tailored elements, button styles, widgets, and rich content treatments. INVESTMENT AVERAGE Request a bid estimate with hourly pricing CLIENT PERSPECTIVES Testimonials Read client stories → “ Katria is an exceptional Drupal developer with expertise spanning theming, back-end PHP, GitHub integration, training, user experience, composition, and color. Rebecca B. Read more “ Katria is an awesome Drupal developer and front-end developer. She can build and maintain Drupal sites as well as build them out as headless web services and web component development. Bryan O. Read more",
+            "text": "FLEXIBLE SERVICES FOR DISTINCT NEEDS Pricing Dev By Design can help throughout the life of a professional website, with design, development, testing, content, and hosting consultation. DEVELOPMENT PACKAGES Drupal & WordPress Web Development Every website has a different audience, goal, design, and set of features. We provide custom solutions because your website should be a custom product. Small Business Package For basic websites with four to six main pages, we offer fixed-price bids so you know exactly what you’re getting. We can also customize more freely at hourly rates. We discuss your target audience, priorities, and desired functionality before outlining project tasks, timelines, and requested training. We focus on giving you a website that is easy to maintain and update. INVESTMENT AVERAGE $2,000–$4,500* *This is an average range. We regularly accept smaller-budget projects and are happy to work with your budget whenever possible. Discuss your project MORE ROOM TO GROW Medium Business Package For established businesses that need more custom content, richer page layouts, interactive widgets, and integrations beyond a basic brochure website. Six to twelve core pages Custom homepage and interior-page layouts Reusable custom content sections and widgets Blog, news, or resource-library functionality Event, gallery, testimonial, or FAQ displays Advanced contact and lead-generation forms Newsletter, CRM, and social integrations Expanded content organization and entry support Accessibility, analytics, and search fundamentals Editor training and launch support INVESTMENT AVERAGE $3,500–$6,000* *Final pricing reflects content volume, integrations, and the level of custom design required. Discuss your project BUILT AROUND YOUR REQUIREMENTS Custom Development Package For larger projects, flexible hourly pricing allows your website to be built in phases and expanded as desired. We organize complex work into a clear, manageable plan. Our Drupal and WordPress experience spans content structure, automated displays, technical integrations, custom modules, and editing tools that make content easier to manage. Features you may wish to incorporate Easy-to-use content options for editors Advanced user roles with content-approval workflows Automated email alerts and page displays Social media integration Advanced calendars and feeds Pre-built styles for content pages Advanced form submissions and record tracking Responsive media for mobile and desktop Git tracking of website configuration Clean development-to-production workflows SEO optimization and marketing-tool integration INVESTMENT AVERAGE Request a bid estimate with hourly pricing Request an estimate FOCUSED EXPERTISE Specialist Services Testing Services We test across mobile, tablet, and desktop devices, checking cross-browser support, accessibility, usability, and opportunities for improvement. INVESTMENT AVERAGE $85 / hour Content Editing & Proofreading We provide detailed content editing and proofreading, image preparation, text formatting, and review for other content issues. INVESTMENT AVERAGE $65 / hour BRANDS DESIGNED FOR THE WEB Design Packages Your design and brand shape how your website feels. Experienced web-specific design can prevent print conventions from becoming costly development problems. Consulting Package We review new or established designs, identify areas that do not translate well to a fluid medium, and recommend practical alternatives that keep your existing brand alive. INVESTMENT AVERAGE Request a bid estimate or hourly pricing Basic Brand Package Includes an accessible web color palette, basic web style guide, mood board, and font direction. Deliverables include an optional revision phase. ONE-TIME INVESTMENT AVERAGE $1,500 Complete Brand & Theming Includes a complete color, mood, and web brand guide followed by a custom theme with tailored elements, button styles, widgets, and rich content treatments. INVESTMENT AVERAGE Request a bid estimate with hourly pricing CLIENT PERSPECTIVES Testimonials Read client stories → “ Katria is an exceptional Drupal developer with expertise spanning theming, back-end PHP, GitHub integration, training, user experience, composition, and color. Rebecca B. Read more “ Katria is an awesome Drupal developer and front-end developer. She can build and maintain Drupal sites as well as build them out as headless web services and web component development. Bryan O. Read more",
             "id": "main-content",
             "classes": [],
             "href": null,
@@ -13419,7 +13419,7 @@
               "x": 0,
               "y": 75,
               "width": 1440,
-              "height": 4617
+              "height": 4655
             },
             "style": {
               "color": "rgb(30, 41, 59)",
@@ -13523,7 +13523,7 @@
           },
           {
             "tag": "section",
-            "text": "DEVELOPMENT PACKAGES Drupal & WordPress Web Development Every website has a different audience, goal, design, and set of features. We provide custom solutions because your website should be a custom product. MORE ROOM TO GROW Medium Business Package For established businesses that need more custom content, richer page layouts, and room for integrations beyond a basic brochure website. Six to twelve core pages Custom homepage and interior-page layouts Expanded content organization and entry support Contact forms and practical third-party integrations Responsive design and accessibility fundamentals Search-friendly page structure and metadata Editor training and launch support INVESTMENT AVERAGE $3,500–$6,000* *Final pricing reflects content volume, integrations, and the level of custom design required. Discuss your project Small Business Package For basic websites with four to six main pages, we offer fixed-price bids so you know exactly what you’re getting. We can also customize more freely at hourly rates. We discuss your target audience, priorities, and desired functionality before outlining project tasks, timelines, and requested training. We focus on giving you a website that is easy to maintain and update. INVESTMENT AVERAGE $2,000–$4,500* *This is an average range. We regularly accept smaller-budget projects and are happy to work with your budget whenever possible. Discuss your project BUILT AROUND YOUR REQUIREMENTS Custom Development Package For larger projects, flexible hourly pricing allows your website to be built in phases and expanded as desired. We organize complex work into a clear, manageable plan. Our Drupal and WordPress experience spans content structure, automated displays, technical integrations, custom modules, and editing tools that make content easier to manage. Features you may wish to incorporate Easy-to-use content options for editors Advanced user roles with content-approval workflows Automated email alerts and page displays Social media integration Advanced calendars and feeds Pre-built styles for content pages Advanced form submissions and record tracking Responsive media for mobile and desktop Git tracking of website configuration Clean development-to-production workflows SEO optimization and marketing-tool integration INVESTMENT AVERAGE Request a bid estimate with hourly pricing Request an estimate",
+            "text": "DEVELOPMENT PACKAGES Drupal & WordPress Web Development Every website has a different audience, goal, design, and set of features. We provide custom solutions because your website should be a custom product. Small Business Package For basic websites with four to six main pages, we offer fixed-price bids so you know exactly what you’re getting. We can also customize more freely at hourly rates. We discuss your target audience, priorities, and desired functionality before outlining project tasks, timelines, and requested training. We focus on giving you a website that is easy to maintain and update. INVESTMENT AVERAGE $2,000–$4,500* *This is an average range. We regularly accept smaller-budget projects and are happy to work with your budget whenever possible. Discuss your project MORE ROOM TO GROW Medium Business Package For established businesses that need more custom content, richer page layouts, interactive widgets, and integrations beyond a basic brochure website. Six to twelve core pages Custom homepage and interior-page layouts Reusable custom content sections and widgets Blog, news, or resource-library functionality Event, gallery, testimonial, or FAQ displays Advanced contact and lead-generation forms Newsletter, CRM, and social integrations Expanded content organization and entry support Accessibility, analytics, and search fundamentals Editor training and launch support INVESTMENT AVERAGE $3,500–$6,000* *Final pricing reflects content volume, integrations, and the level of custom design required. Discuss your project BUILT AROUND YOUR REQUIREMENTS Custom Development Package For larger projects, flexible hourly pricing allows your website to be built in phases and expanded as desired. We organize complex work into a clear, manageable plan. Our Drupal and WordPress experience spans content structure, automated displays, technical integrations, custom modules, and editing tools that make content easier to manage. Features you may wish to incorporate Easy-to-use content options for editors Advanced user roles with content-approval workflows Automated email alerts and page displays Social media integration Advanced calendars and feeds Pre-built styles for content pages Advanced form submissions and record tracking Responsive media for mobile and desktop Git tracking of website configuration Clean development-to-production workflows SEO optimization and marketing-tool integration INVESTMENT AVERAGE Request a bid estimate with hourly pricing Request an estimate",
             "id": null,
             "classes": [
               "section",
@@ -13534,7 +13534,7 @@
               "x": 0,
               "y": 517,
               "width": 1440,
-              "height": 2057
+              "height": 2095
             },
             "style": {
               "color": "rgb(30, 41, 59)",
@@ -13614,119 +13614,6 @@
           },
           {
             "tag": "article",
-            "text": "MORE ROOM TO GROW Medium Business Package For established businesses that need more custom content, richer page layouts, and room for integrations beyond a basic brochure website. Six to twelve core pages Custom homepage and interior-page layouts Expanded content organization and entry support Contact forms and practical third-party integrations Responsive design and accessibility fundamentals Search-friendly page structure and metadata Editor training and launch support INVESTMENT AVERAGE $3,500–$6,000* *Final pricing reflects content volume, integrations, and the level of custom design required. Discuss your project",
-            "id": null,
-            "classes": [
-              "package",
-              "card",
-              "medium-package"
-            ],
-            "href": null,
-            "bounds": {
-              "x": 152,
-              "y": 878,
-              "width": 556,
-              "height": 797
-            },
-            "style": {
-              "color": "rgb(30, 41, 59)",
-              "backgroundColor": "rgb(255, 255, 255)",
-              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
-              "fontSize": "17.6px",
-              "fontWeight": "400",
-              "lineHeight": "29.568px"
-            }
-          },
-          {
-            "tag": "p",
-            "text": "MORE ROOM TO GROW",
-            "id": null,
-            "classes": [
-              "package-label"
-            ],
-            "href": null,
-            "bounds": {
-              "x": 193,
-              "y": 923,
-              "width": 474,
-              "height": 21
-            },
-            "style": {
-              "color": "rgb(49, 91, 189)",
-              "backgroundColor": "rgba(0, 0, 0, 0)",
-              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
-              "fontSize": "12.48px",
-              "fontWeight": "800",
-              "lineHeight": "20.9664px"
-            }
-          },
-          {
-            "tag": "h3",
-            "text": "Medium Business Package",
-            "id": null,
-            "classes": [],
-            "href": null,
-            "bounds": {
-              "x": 193,
-              "y": 959,
-              "width": 474,
-              "height": 29
-            },
-            "style": {
-              "color": "rgb(30, 41, 59)",
-              "backgroundColor": "rgba(0, 0, 0, 0)",
-              "fontFamily": "\"Roboto Slab\", Rockwell, Georgia, serif",
-              "fontSize": "24.8px",
-              "fontWeight": "700",
-              "lineHeight": "28.52px"
-            }
-          },
-          {
-            "tag": "p",
-            "text": "For established businesses that need more custom content, richer page layouts, and room for integrations beyond a basic brochure website.",
-            "id": null,
-            "classes": [],
-            "href": null,
-            "bounds": {
-              "x": 193,
-              "y": 1005,
-              "width": 474,
-              "height": 89
-            },
-            "style": {
-              "color": "rgb(71, 85, 105)",
-              "backgroundColor": "rgba(0, 0, 0, 0)",
-              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
-              "fontSize": "17.6px",
-              "fontWeight": "400",
-              "lineHeight": "29.568px"
-            }
-          },
-          {
-            "tag": "a",
-            "text": "Discuss your project",
-            "id": null,
-            "classes": [
-              "button"
-            ],
-            "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Medium%20Business%20Package%20inquiry",
-            "bounds": {
-              "x": 193,
-              "y": 1586,
-              "width": 210,
-              "height": 48
-            },
-            "style": {
-              "color": "rgb(255, 255, 255)",
-              "backgroundColor": "rgb(49, 91, 189)",
-              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
-              "fontSize": "17.6px",
-              "fontWeight": "750",
-              "lineHeight": "21.12px"
-            }
-          },
-          {
-            "tag": "article",
             "text": "Small Business Package For basic websites with four to six main pages, we offer fixed-price bids so you know exactly what you’re getting. We can also customize more freely at hourly rates. We discuss your target audience, priorities, and desired functionality before outlining project tasks, timelines, and requested training. We focus on giving you a website that is easy to maintain and update. INVESTMENT AVERAGE $2,000–$4,500* *This is an average range. We regularly accept smaller-budget projects and are happy to work with your budget whenever possible. Discuss your project",
             "id": null,
             "classes": [
@@ -13735,7 +13622,7 @@
             ],
             "href": null,
             "bounds": {
-              "x": 732,
+              "x": 152,
               "y": 878,
               "width": 556,
               "height": 585
@@ -13756,7 +13643,7 @@
             "classes": [],
             "href": null,
             "bounds": {
-              "x": 773,
+              "x": 193,
               "y": 919,
               "width": 474,
               "height": 29
@@ -13777,7 +13664,7 @@
             "classes": [],
             "href": null,
             "bounds": {
-              "x": 773,
+              "x": 193,
               "y": 965,
               "width": 474,
               "height": 89
@@ -13798,7 +13685,7 @@
             "classes": [],
             "href": null,
             "bounds": {
-              "x": 773,
+              "x": 193,
               "y": 1075,
               "width": 474,
               "height": 118
@@ -13821,8 +13708,121 @@
             ],
             "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Small%20Business%20Package%20inquiry",
             "bounds": {
-              "x": 773,
+              "x": 193,
               "y": 1374,
+              "width": 210,
+              "height": 48
+            },
+            "style": {
+              "color": "rgb(255, 255, 255)",
+              "backgroundColor": "rgb(49, 91, 189)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "17.6px",
+              "fontWeight": "750",
+              "lineHeight": "21.12px"
+            }
+          },
+          {
+            "tag": "article",
+            "text": "MORE ROOM TO GROW Medium Business Package For established businesses that need more custom content, richer page layouts, interactive widgets, and integrations beyond a basic brochure website. Six to twelve core pages Custom homepage and interior-page layouts Reusable custom content sections and widgets Blog, news, or resource-library functionality Event, gallery, testimonial, or FAQ displays Advanced contact and lead-generation forms Newsletter, CRM, and social integrations Expanded content organization and entry support Accessibility, analytics, and search fundamentals Editor training and launch support INVESTMENT AVERAGE $3,500–$6,000* *Final pricing reflects content volume, integrations, and the level of custom design required. Discuss your project",
+            "id": null,
+            "classes": [
+              "package",
+              "card",
+              "medium-package"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 732,
+              "y": 878,
+              "width": 556,
+              "height": 864
+            },
+            "style": {
+              "color": "rgb(30, 41, 59)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "17.6px",
+              "fontWeight": "400",
+              "lineHeight": "29.568px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "MORE ROOM TO GROW",
+            "id": null,
+            "classes": [
+              "package-label"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 773,
+              "y": 923,
+              "width": 474,
+              "height": 21
+            },
+            "style": {
+              "color": "rgb(49, 91, 189)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "12.48px",
+              "fontWeight": "800",
+              "lineHeight": "20.9664px"
+            }
+          },
+          {
+            "tag": "h3",
+            "text": "Medium Business Package",
+            "id": null,
+            "classes": [],
+            "href": null,
+            "bounds": {
+              "x": 773,
+              "y": 959,
+              "width": 474,
+              "height": 29
+            },
+            "style": {
+              "color": "rgb(30, 41, 59)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Roboto Slab\", Rockwell, Georgia, serif",
+              "fontSize": "24.8px",
+              "fontWeight": "700",
+              "lineHeight": "28.52px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "For established businesses that need more custom content, richer page layouts, interactive widgets, and integrations beyond a basic brochure website.",
+            "id": null,
+            "classes": [],
+            "href": null,
+            "bounds": {
+              "x": 773,
+              "y": 1005,
+              "width": 474,
+              "height": 89
+            },
+            "style": {
+              "color": "rgb(71, 85, 105)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "17.6px",
+              "fontWeight": "400",
+              "lineHeight": "29.568px"
+            }
+          },
+          {
+            "tag": "a",
+            "text": "Discuss your project",
+            "id": null,
+            "classes": [
+              "button"
+            ],
+            "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Medium%20Business%20Package%20inquiry",
+            "bounds": {
+              "x": 773,
+              "y": 1653,
               "width": 210,
               "height": 48
             },
@@ -13847,10 +13847,10 @@
             ],
             "href": null,
             "bounds": {
-              "x": 256,
-              "y": 1699,
-              "width": 928,
-              "height": 774
+              "x": 152,
+              "y": 1766,
+              "width": 1136,
+              "height": 744
             },
             "style": {
               "color": "rgb(255, 255, 255)",
@@ -13870,13 +13870,13 @@
             ],
             "href": null,
             "bounds": {
-              "x": 296,
-              "y": 1739,
-              "width": 848,
+              "x": 192,
+              "y": 1806,
+              "width": 1056,
               "height": 21
             },
             "style": {
-              "color": "rgb(174, 188, 234)",
+              "color": "rgb(241, 244, 255)",
               "backgroundColor": "rgba(0, 0, 0, 0)",
               "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
               "fontSize": "12.48px",
@@ -13891,9 +13891,9 @@
             "classes": [],
             "href": null,
             "bounds": {
-              "x": 296,
-              "y": 1775,
-              "width": 848,
+              "x": 192,
+              "y": 1842,
+              "width": 1056,
               "height": 29
             },
             "style": {
@@ -13912,13 +13912,13 @@
             "classes": [],
             "href": null,
             "bounds": {
-              "x": 296,
-              "y": 1821,
-              "width": 848,
+              "x": 192,
+              "y": 1888,
+              "width": 1056,
               "height": 59
             },
             "style": {
-              "color": "rgb(225, 232, 250)",
+              "color": "rgb(241, 244, 255)",
               "backgroundColor": "rgba(0, 0, 0, 0)",
               "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
               "fontSize": "17.6px",
@@ -13933,13 +13933,13 @@
             "classes": [],
             "href": null,
             "bounds": {
-              "x": 296,
-              "y": 1901,
-              "width": 848,
+              "x": 192,
+              "y": 1968,
+              "width": 1056,
               "height": 59
             },
             "style": {
-              "color": "rgb(225, 232, 250)",
+              "color": "rgb(241, 244, 255)",
               "backgroundColor": "rgba(0, 0, 0, 0)",
               "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
               "fontSize": "17.6px",
@@ -13954,9 +13954,9 @@
             "classes": [],
             "href": null,
             "bounds": {
-              "x": 296,
-              "y": 1981,
-              "width": 848,
+              "x": 192,
+              "y": 2048,
+              "width": 1056,
               "height": 20
             },
             "style": {
@@ -13977,8 +13977,8 @@
             ],
             "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Custom%20Development%20Package%20inquiry",
             "bounds": {
-              "x": 296,
-              "y": 2385,
+              "x": 192,
+              "y": 2422,
               "width": 211,
               "height": 48
             },
@@ -14002,7 +14002,7 @@
             "href": null,
             "bounds": {
               "x": 0,
-              "y": 2574,
+              "y": 2611,
               "width": 1440,
               "height": 649
             },
@@ -14025,7 +14025,7 @@
             "href": null,
             "bounds": {
               "x": 152,
-              "y": 2675,
+              "y": 2712,
               "width": 896,
               "height": 21
             },
@@ -14046,7 +14046,7 @@
             "href": null,
             "bounds": {
               "x": 152,
-              "y": 2708,
+              "y": 2745,
               "width": 896,
               "height": 39
             },
@@ -14070,7 +14070,7 @@
             "href": null,
             "bounds": {
               "x": 152,
-              "y": 2787,
+              "y": 2824,
               "width": 556,
               "height": 336
             },
@@ -14091,7 +14091,7 @@
             "href": null,
             "bounds": {
               "x": 193,
-              "y": 2828,
+              "y": 2865,
               "width": 474,
               "height": 29
             },
@@ -14112,7 +14112,7 @@
             "href": null,
             "bounds": {
               "x": 193,
-              "y": 2874,
+              "y": 2911,
               "width": 474,
               "height": 89
             },
@@ -14136,7 +14136,7 @@
             "href": null,
             "bounds": {
               "x": 732,
-              "y": 2787,
+              "y": 2824,
               "width": 556,
               "height": 336
             },
@@ -14157,7 +14157,7 @@
             "href": null,
             "bounds": {
               "x": 773,
-              "y": 2828,
+              "y": 2865,
               "width": 474,
               "height": 29
             },
@@ -14178,7 +14178,7 @@
             "href": null,
             "bounds": {
               "x": 773,
-              "y": 2874,
+              "y": 2911,
               "width": 474,
               "height": 89
             },
@@ -14202,7 +14202,7 @@
             "href": null,
             "bounds": {
               "x": 0,
-              "y": 3223,
+              "y": 3261,
               "width": 1440,
               "height": 912
             },
@@ -14225,7 +14225,7 @@
             "href": null,
             "bounds": {
               "x": 152,
-              "y": 3324,
+              "y": 3361,
               "width": 896,
               "height": 21
             },
@@ -14246,7 +14246,7 @@
             "href": null,
             "bounds": {
               "x": 152,
-              "y": 3357,
+              "y": 3394,
               "width": 896,
               "height": 39
             },
@@ -14269,7 +14269,7 @@
             "href": null,
             "bounds": {
               "x": 152,
-              "y": 3420,
+              "y": 3457,
               "width": 768,
               "height": 125
             },
@@ -14293,7 +14293,7 @@
             "href": null,
             "bounds": {
               "x": 152,
-              "y": 3585,
+              "y": 3622,
               "width": 365,
               "height": 449
             },
@@ -14314,7 +14314,7 @@
             "href": null,
             "bounds": {
               "x": 193,
-              "y": 3626,
+              "y": 3663,
               "width": 283,
               "height": 29
             },
@@ -14335,7 +14335,7 @@
             "href": null,
             "bounds": {
               "x": 193,
-              "y": 3672,
+              "y": 3709,
               "width": 283,
               "height": 148
             },
@@ -14359,7 +14359,7 @@
             "href": null,
             "bounds": {
               "x": 537,
-              "y": 3585,
+              "y": 3622,
               "width": 365,
               "height": 449
             },
@@ -14380,7 +14380,7 @@
             "href": null,
             "bounds": {
               "x": 578,
-              "y": 3626,
+              "y": 3663,
               "width": 283,
               "height": 29
             },
@@ -14401,7 +14401,7 @@
             "href": null,
             "bounds": {
               "x": 578,
-              "y": 3672,
+              "y": 3709,
               "width": 283,
               "height": 148
             },
@@ -14425,7 +14425,7 @@
             "href": null,
             "bounds": {
               "x": 923,
-              "y": 3585,
+              "y": 3622,
               "width": 365,
               "height": 449
             },
@@ -14446,7 +14446,7 @@
             "href": null,
             "bounds": {
               "x": 964,
-              "y": 3626,
+              "y": 3663,
               "width": 283,
               "height": 57
             },
@@ -14467,7 +14467,7 @@
             "href": null,
             "bounds": {
               "x": 964,
-              "y": 3700,
+              "y": 3738,
               "width": 283,
               "height": 148
             },
@@ -14490,7 +14490,7 @@
             "href": null,
             "bounds": {
               "x": 0,
-              "y": 4135,
+              "y": 4172,
               "width": 1440,
               "height": 558
             },
@@ -14513,7 +14513,7 @@
             "href": null,
             "bounds": {
               "x": 152,
-              "y": 4236,
+              "y": 4273,
               "width": 227,
               "height": 21
             },
@@ -14534,7 +14534,7 @@
             "href": null,
             "bounds": {
               "x": 152,
-              "y": 4269,
+              "y": 4306,
               "width": 227,
               "height": 39
             },
@@ -14555,7 +14555,7 @@
             "href": "http://127.0.0.1:4321/testimonial/john-l/",
             "bounds": {
               "x": 1117,
-              "y": 4278,
+              "y": 4316,
               "width": 171,
               "height": 30
             },
@@ -14576,7 +14576,7 @@
             "href": null,
             "bounds": {
               "x": 152,
-              "y": 4336,
+              "y": 4373,
               "width": 550,
               "height": 256
             },
@@ -14597,7 +14597,7 @@
             "href": null,
             "bounds": {
               "x": 184,
-              "y": 4368,
+              "y": 4405,
               "width": 486,
               "height": 89
             },
@@ -14618,7 +14618,7 @@
             "href": null,
             "bounds": {
               "x": 184,
-              "y": 4505,
+              "y": 4543,
               "width": 486,
               "height": 55
             },
@@ -14639,7 +14639,7 @@
             "href": "http://127.0.0.1:4321/testimonial/rebecca-b/",
             "bounds": {
               "x": 580,
-              "y": 4530,
+              "y": 4568,
               "width": 89,
               "height": 30
             },
@@ -14660,7 +14660,7 @@
             "href": null,
             "bounds": {
               "x": 738,
-              "y": 4336,
+              "y": 4373,
               "width": 550,
               "height": 256
             },
@@ -14681,7 +14681,7 @@
             "href": null,
             "bounds": {
               "x": 770,
-              "y": 4368,
+              "y": 4405,
               "width": 486,
               "height": 118
             },
@@ -14702,7 +14702,7 @@
             "href": null,
             "bounds": {
               "x": 770,
-              "y": 4505,
+              "y": 4543,
               "width": 486,
               "height": 55
             },
@@ -14723,7 +14723,7 @@
             "href": "http://127.0.0.1:4321/testimonial/bryan-o/",
             "bounds": {
               "x": 1167,
-              "y": 4530,
+              "y": 4568,
               "width": 89,
               "height": 30
             },
@@ -14746,7 +14746,7 @@
             "href": null,
             "bounds": {
               "x": 0,
-              "y": 4692,
+              "y": 4730,
               "width": 1440,
               "height": 372
             },
@@ -14767,7 +14767,7 @@
             "href": null,
             "bounds": {
               "x": 152,
-              "y": 4760,
+              "y": 4797,
               "width": 352,
               "height": 167
             },
@@ -14788,7 +14788,7 @@
             "href": null,
             "bounds": {
               "x": 152,
-              "y": 4760,
+              "y": 4797,
               "width": 352,
               "height": 31
             },
@@ -14809,7 +14809,7 @@
             "href": "http://127.0.0.1:4321/about-us/",
             "bounds": {
               "x": 152,
-              "y": 4802,
+              "y": 4840,
               "width": 72,
               "height": 23
             },
@@ -14830,7 +14830,7 @@
             "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Schedule%20a%20call%20with%20Dev%20By%20Design",
             "bounds": {
               "x": 152,
-              "y": 4835,
+              "y": 4872,
               "width": 117,
               "height": 23
             },
@@ -14851,7 +14851,7 @@
             "href": "https://www.linkedin.com/company/dev-by-design/about/",
             "bounds": {
               "x": 152,
-              "y": 4867,
+              "y": 4905,
               "width": 65,
               "height": 23
             },
@@ -14872,7 +14872,7 @@
             "href": null,
             "bounds": {
               "x": 632,
-              "y": 4760,
+              "y": 4797,
               "width": 656,
               "height": 167
             },
@@ -14893,7 +14893,7 @@
             "href": null,
             "bounds": {
               "x": 632,
-              "y": 4760,
+              "y": 4797,
               "width": 656,
               "height": 31
             },
@@ -14914,7 +14914,7 @@
             "href": null,
             "bounds": {
               "x": 632,
-              "y": 4799,
+              "y": 4837,
               "width": 480,
               "height": 59
             },
@@ -14937,7 +14937,7 @@
             "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Website%20project%20inquiry",
             "bounds": {
               "x": 632,
-              "y": 4879,
+              "y": 4917,
               "width": 157,
               "height": 48
             },
@@ -14958,7 +14958,7 @@
             "href": null,
             "bounds": {
               "x": 573,
-              "y": 5013,
+              "y": 5050,
               "width": 294,
               "height": 24
             },
@@ -15003,7 +15003,7 @@
         "status": 200,
         "dimensions": {
           "width": 390,
-          "height": 7076,
+          "height": 7234,
           "viewportHeight": 844
         },
         "title": "Pricing | Dev By Design",
@@ -15030,11 +15030,11 @@
           },
           {
             "level": 3,
-            "text": "Medium Business Package"
+            "text": "Small Business Package"
           },
           {
             "level": 3,
-            "text": "Small Business Package"
+            "text": "Medium Business Package"
           },
           {
             "level": 3,
@@ -15130,13 +15130,13 @@
           },
           {
             "text": "Discuss your project",
-            "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Medium%20Business%20Package%20inquiry",
+            "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Small%20Business%20Package%20inquiry",
             "target": null,
             "ariaLabel": null
           },
           {
             "text": "Discuss your project",
-            "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Small%20Business%20Package%20inquiry",
+            "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Medium%20Business%20Package%20inquiry",
             "target": null,
             "ariaLabel": null
           },
@@ -15205,7 +15205,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
         ],
         "scripts": [
           "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
@@ -15408,7 +15408,7 @@
           },
           {
             "tag": "main",
-            "text": "FLEXIBLE SERVICES FOR DISTINCT NEEDS Pricing Dev By Design can help throughout the life of a professional website, with design, development, testing, content, and hosting consultation. DEVELOPMENT PACKAGES Drupal & WordPress Web Development Every website has a different audience, goal, design, and set of features. We provide custom solutions because your website should be a custom product. MORE ROOM TO GROW Medium Business Package For established businesses that need more custom content, richer page layouts, and room for integrations beyond a basic brochure website. Six to twelve core pages Custom homepage and interior-page layouts Expanded content organization and entry support Contact forms and practical third-party integrations Responsive design and accessibility fundamentals Search-friendly page structure and metadata Editor training and launch support INVESTMENT AVERAGE $3,500–$6,000* *Final pricing reflects content volume, integrations, and the level of custom design required. Discuss your project Small Business Package For basic websites with four to six main pages, we offer fixed-price bids so you know exactly what you’re getting. We can also customize more freely at hourly rates. We discuss your target audience, priorities, and desired functionality before outlining project tasks, timelines, and requested training. We focus on giving you a website that is easy to maintain and update. INVESTMENT AVERAGE $2,000–$4,500* *This is an average range. We regularly accept smaller-budget projects and are happy to work with your budget whenever possible. Discuss your project BUILT AROUND YOUR REQUIREMENTS Custom Development Package For larger projects, flexible hourly pricing allows your website to be built in phases and expanded as desired. We organize complex work into a clear, manageable plan. Our Drupal and WordPress experience spans content structure, automated displays, technical integrations, custom modules, and editing tools that make content easier to manage. Features you may wish to incorporate Easy-to-use content options for editors Advanced user roles with content-approval workflows Automated email alerts and page displays Social media integration Advanced calendars and feeds Pre-built styles for content pages Advanced form submissions and record tracking Responsive media for mobile and desktop Git tracking of website configuration Clean development-to-production workflows SEO optimization and marketing-tool integration INVESTMENT AVERAGE Request a bid estimate with hourly pricing Request an estimate FOCUSED EXPERTISE Specialist Services Testing Services We test across mobile, tablet, and desktop devices, checking cross-browser support, accessibility, usability, and opportunities for improvement. INVESTMENT AVERAGE $85 / hour Content Editing & Proofreading We provide detailed content editing and proofreading, image preparation, text formatting, and review for other content issues. INVESTMENT AVERAGE $65 / hour BRANDS DESIGNED FOR THE WEB Design Packages Your design and brand shape how your website feels. Experienced web-specific design can prevent print conventions from becoming costly development problems. Consulting Package We review new or established designs, identify areas that do not translate well to a fluid medium, and recommend practical alternatives that keep your existing brand alive. INVESTMENT AVERAGE Request a bid estimate or hourly pricing Basic Brand Package Includes an accessible web color palette, basic web style guide, mood board, and font direction. Deliverables include an optional revision phase. ONE-TIME INVESTMENT AVERAGE $1,500 Complete Brand & Theming Includes a complete color, mood, and web brand guide followed by a custom theme with tailored elements, button styles, widgets, and rich content treatments. INVESTMENT AVERAGE Request a bid estimate with hourly pricing CLIENT PERSPECTIVES Testimonials Read client stories → “ Katria is an exceptional Drupal developer with expertise spanning theming, back-end PHP, GitHub integration, training, user experience, composition, and color. Rebecca B. Read more “ Katria is an awesome Drupal developer and front-end developer. She can build and maintain Drupal sites as well as build them out as headless web services and web component development. Bryan O. Read more",
+            "text": "FLEXIBLE SERVICES FOR DISTINCT NEEDS Pricing Dev By Design can help throughout the life of a professional website, with design, development, testing, content, and hosting consultation. DEVELOPMENT PACKAGES Drupal & WordPress Web Development Every website has a different audience, goal, design, and set of features. We provide custom solutions because your website should be a custom product. Small Business Package For basic websites with four to six main pages, we offer fixed-price bids so you know exactly what you’re getting. We can also customize more freely at hourly rates. We discuss your target audience, priorities, and desired functionality before outlining project tasks, timelines, and requested training. We focus on giving you a website that is easy to maintain and update. INVESTMENT AVERAGE $2,000–$4,500* *This is an average range. We regularly accept smaller-budget projects and are happy to work with your budget whenever possible. Discuss your project MORE ROOM TO GROW Medium Business Package For established businesses that need more custom content, richer page layouts, interactive widgets, and integrations beyond a basic brochure website. Six to twelve core pages Custom homepage and interior-page layouts Reusable custom content sections and widgets Blog, news, or resource-library functionality Event, gallery, testimonial, or FAQ displays Advanced contact and lead-generation forms Newsletter, CRM, and social integrations Expanded content organization and entry support Accessibility, analytics, and search fundamentals Editor training and launch support INVESTMENT AVERAGE $3,500–$6,000* *Final pricing reflects content volume, integrations, and the level of custom design required. Discuss your project BUILT AROUND YOUR REQUIREMENTS Custom Development Package For larger projects, flexible hourly pricing allows your website to be built in phases and expanded as desired. We organize complex work into a clear, manageable plan. Our Drupal and WordPress experience spans content structure, automated displays, technical integrations, custom modules, and editing tools that make content easier to manage. Features you may wish to incorporate Easy-to-use content options for editors Advanced user roles with content-approval workflows Automated email alerts and page displays Social media integration Advanced calendars and feeds Pre-built styles for content pages Advanced form submissions and record tracking Responsive media for mobile and desktop Git tracking of website configuration Clean development-to-production workflows SEO optimization and marketing-tool integration INVESTMENT AVERAGE Request a bid estimate with hourly pricing Request an estimate FOCUSED EXPERTISE Specialist Services Testing Services We test across mobile, tablet, and desktop devices, checking cross-browser support, accessibility, usability, and opportunities for improvement. INVESTMENT AVERAGE $85 / hour Content Editing & Proofreading We provide detailed content editing and proofreading, image preparation, text formatting, and review for other content issues. INVESTMENT AVERAGE $65 / hour BRANDS DESIGNED FOR THE WEB Design Packages Your design and brand shape how your website feels. Experienced web-specific design can prevent print conventions from becoming costly development problems. Consulting Package We review new or established designs, identify areas that do not translate well to a fluid medium, and recommend practical alternatives that keep your existing brand alive. INVESTMENT AVERAGE Request a bid estimate or hourly pricing Basic Brand Package Includes an accessible web color palette, basic web style guide, mood board, and font direction. Deliverables include an optional revision phase. ONE-TIME INVESTMENT AVERAGE $1,500 Complete Brand & Theming Includes a complete color, mood, and web brand guide followed by a custom theme with tailored elements, button styles, widgets, and rich content treatments. INVESTMENT AVERAGE Request a bid estimate with hourly pricing CLIENT PERSPECTIVES Testimonials Read client stories → “ Katria is an exceptional Drupal developer with expertise spanning theming, back-end PHP, GitHub integration, training, user experience, composition, and color. Rebecca B. Read more “ Katria is an awesome Drupal developer and front-end developer. She can build and maintain Drupal sites as well as build them out as headless web services and web component development. Bryan O. Read more",
             "id": "main-content",
             "classes": [],
             "href": null,
@@ -15416,7 +15416,7 @@
               "x": 0,
               "y": 64,
               "width": 390,
-              "height": 6482
+              "height": 6641
             },
             "style": {
               "color": "rgb(30, 41, 59)",
@@ -15520,7 +15520,7 @@
           },
           {
             "tag": "section",
-            "text": "DEVELOPMENT PACKAGES Drupal & WordPress Web Development Every website has a different audience, goal, design, and set of features. We provide custom solutions because your website should be a custom product. MORE ROOM TO GROW Medium Business Package For established businesses that need more custom content, richer page layouts, and room for integrations beyond a basic brochure website. Six to twelve core pages Custom homepage and interior-page layouts Expanded content organization and entry support Contact forms and practical third-party integrations Responsive design and accessibility fundamentals Search-friendly page structure and metadata Editor training and launch support INVESTMENT AVERAGE $3,500–$6,000* *Final pricing reflects content volume, integrations, and the level of custom design required. Discuss your project Small Business Package For basic websites with four to six main pages, we offer fixed-price bids so you know exactly what you’re getting. We can also customize more freely at hourly rates. We discuss your target audience, priorities, and desired functionality before outlining project tasks, timelines, and requested training. We focus on giving you a website that is easy to maintain and update. INVESTMENT AVERAGE $2,000–$4,500* *This is an average range. We regularly accept smaller-budget projects and are happy to work with your budget whenever possible. Discuss your project BUILT AROUND YOUR REQUIREMENTS Custom Development Package For larger projects, flexible hourly pricing allows your website to be built in phases and expanded as desired. We organize complex work into a clear, manageable plan. Our Drupal and WordPress experience spans content structure, automated displays, technical integrations, custom modules, and editing tools that make content easier to manage. Features you may wish to incorporate Easy-to-use content options for editors Advanced user roles with content-approval workflows Automated email alerts and page displays Social media integration Advanced calendars and feeds Pre-built styles for content pages Advanced form submissions and record tracking Responsive media for mobile and desktop Git tracking of website configuration Clean development-to-production workflows SEO optimization and marketing-tool integration INVESTMENT AVERAGE Request a bid estimate with hourly pricing Request an estimate",
+            "text": "DEVELOPMENT PACKAGES Drupal & WordPress Web Development Every website has a different audience, goal, design, and set of features. We provide custom solutions because your website should be a custom product. Small Business Package For basic websites with four to six main pages, we offer fixed-price bids so you know exactly what you’re getting. We can also customize more freely at hourly rates. We discuss your target audience, priorities, and desired functionality before outlining project tasks, timelines, and requested training. We focus on giving you a website that is easy to maintain and update. INVESTMENT AVERAGE $2,000–$4,500* *This is an average range. We regularly accept smaller-budget projects and are happy to work with your budget whenever possible. Discuss your project MORE ROOM TO GROW Medium Business Package For established businesses that need more custom content, richer page layouts, interactive widgets, and integrations beyond a basic brochure website. Six to twelve core pages Custom homepage and interior-page layouts Reusable custom content sections and widgets Blog, news, or resource-library functionality Event, gallery, testimonial, or FAQ displays Advanced contact and lead-generation forms Newsletter, CRM, and social integrations Expanded content organization and entry support Accessibility, analytics, and search fundamentals Editor training and launch support INVESTMENT AVERAGE $3,500–$6,000* *Final pricing reflects content volume, integrations, and the level of custom design required. Discuss your project BUILT AROUND YOUR REQUIREMENTS Custom Development Package For larger projects, flexible hourly pricing allows your website to be built in phases and expanded as desired. We organize complex work into a clear, manageable plan. Our Drupal and WordPress experience spans content structure, automated displays, technical integrations, custom modules, and editing tools that make content easier to manage. Features you may wish to incorporate Easy-to-use content options for editors Advanced user roles with content-approval workflows Automated email alerts and page displays Social media integration Advanced calendars and feeds Pre-built styles for content pages Advanced form submissions and record tracking Responsive media for mobile and desktop Git tracking of website configuration Clean development-to-production workflows SEO optimization and marketing-tool integration INVESTMENT AVERAGE Request a bid estimate with hourly pricing Request an estimate",
             "id": null,
             "classes": [
               "section",
@@ -15531,7 +15531,7 @@
               "x": 0,
               "y": 423,
               "width": 390,
-              "height": 3091
+              "height": 3249
             },
             "style": {
               "color": "rgb(30, 41, 59)",
@@ -15611,119 +15611,6 @@
           },
           {
             "tag": "article",
-            "text": "MORE ROOM TO GROW Medium Business Package For established businesses that need more custom content, richer page layouts, and room for integrations beyond a basic brochure website. Six to twelve core pages Custom homepage and interior-page layouts Expanded content organization and entry support Contact forms and practical third-party integrations Responsive design and accessibility fundamentals Search-friendly page structure and metadata Editor training and launch support INVESTMENT AVERAGE $3,500–$6,000* *Final pricing reflects content volume, integrations, and the level of custom design required. Discuss your project",
-            "id": null,
-            "classes": [
-              "package",
-              "card",
-              "medium-package"
-            ],
-            "href": null,
-            "bounds": {
-              "x": 16,
-              "y": 758,
-              "width": 358,
-              "height": 848
-            },
-            "style": {
-              "color": "rgb(30, 41, 59)",
-              "backgroundColor": "rgb(255, 255, 255)",
-              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
-              "fontSize": "16px",
-              "fontWeight": "400",
-              "lineHeight": "26.88px"
-            }
-          },
-          {
-            "tag": "p",
-            "text": "MORE ROOM TO GROW",
-            "id": null,
-            "classes": [
-              "package-label"
-            ],
-            "href": null,
-            "bounds": {
-              "x": 41,
-              "y": 787,
-              "width": 308,
-              "height": 21
-            },
-            "style": {
-              "color": "rgb(49, 91, 189)",
-              "backgroundColor": "rgba(0, 0, 0, 0)",
-              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
-              "fontSize": "12.48px",
-              "fontWeight": "800",
-              "lineHeight": "20.9664px"
-            }
-          },
-          {
-            "tag": "h3",
-            "text": "Medium Business Package",
-            "id": null,
-            "classes": [],
-            "href": null,
-            "bounds": {
-              "x": 41,
-              "y": 823,
-              "width": 308,
-              "height": 22
-            },
-            "style": {
-              "color": "rgb(30, 41, 59)",
-              "backgroundColor": "rgba(0, 0, 0, 0)",
-              "fontFamily": "\"Roboto Slab\", Rockwell, Georgia, serif",
-              "fontSize": "19.55px",
-              "fontWeight": "700",
-              "lineHeight": "22.4825px"
-            }
-          },
-          {
-            "tag": "p",
-            "text": "For established businesses that need more custom content, richer page layouts, and room for integrations beyond a basic brochure website.",
-            "id": null,
-            "classes": [],
-            "href": null,
-            "bounds": {
-              "x": 41,
-              "y": 859,
-              "width": 308,
-              "height": 108
-            },
-            "style": {
-              "color": "rgb(71, 85, 105)",
-              "backgroundColor": "rgba(0, 0, 0, 0)",
-              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
-              "fontSize": "16px",
-              "fontWeight": "400",
-              "lineHeight": "26.88px"
-            }
-          },
-          {
-            "tag": "a",
-            "text": "Discuss your project",
-            "id": null,
-            "classes": [
-              "button"
-            ],
-            "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Medium%20Business%20Package%20inquiry",
-            "bounds": {
-              "x": 41,
-              "y": 1533,
-              "width": 195,
-              "height": 48
-            },
-            "style": {
-              "color": "rgb(255, 255, 255)",
-              "backgroundColor": "rgb(49, 91, 189)",
-              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
-              "fontSize": "16px",
-              "fontWeight": "750",
-              "lineHeight": "19.2px"
-            }
-          },
-          {
-            "tag": "article",
             "text": "Small Business Package For basic websites with four to six main pages, we offer fixed-price bids so you know exactly what you’re getting. We can also customize more freely at hourly rates. We discuss your target audience, priorities, and desired functionality before outlining project tasks, timelines, and requested training. We focus on giving you a website that is easy to maintain and update. INVESTMENT AVERAGE $2,000–$4,500* *This is an average range. We regularly accept smaller-budget projects and are happy to work with your budget whenever possible. Discuss your project",
             "id": null,
             "classes": [
@@ -15733,7 +15620,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 1630,
+              "y": 758,
               "width": 358,
               "height": 594
             },
@@ -15754,7 +15641,7 @@
             "href": null,
             "bounds": {
               "x": 41,
-              "y": 1655,
+              "y": 783,
               "width": 308,
               "height": 22
             },
@@ -15775,7 +15662,7 @@
             "href": null,
             "bounds": {
               "x": 41,
-              "y": 1691,
+              "y": 819,
               "width": 308,
               "height": 108
             },
@@ -15796,7 +15683,7 @@
             "href": null,
             "bounds": {
               "x": 41,
-              "y": 1817,
+              "y": 945,
               "width": 308,
               "height": 134
             },
@@ -15819,7 +15706,120 @@
             "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Small%20Business%20Package%20inquiry",
             "bounds": {
               "x": 41,
-              "y": 2151,
+              "y": 1279,
+              "width": 195,
+              "height": 48
+            },
+            "style": {
+              "color": "rgb(255, 255, 255)",
+              "backgroundColor": "rgb(49, 91, 189)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "750",
+              "lineHeight": "19.2px"
+            }
+          },
+          {
+            "tag": "article",
+            "text": "MORE ROOM TO GROW Medium Business Package For established businesses that need more custom content, richer page layouts, interactive widgets, and integrations beyond a basic brochure website. Six to twelve core pages Custom homepage and interior-page layouts Reusable custom content sections and widgets Blog, news, or resource-library functionality Event, gallery, testimonial, or FAQ displays Advanced contact and lead-generation forms Newsletter, CRM, and social integrations Expanded content organization and entry support Accessibility, analytics, and search fundamentals Editor training and launch support INVESTMENT AVERAGE $3,500–$6,000* *Final pricing reflects content volume, integrations, and the level of custom design required. Discuss your project",
+            "id": null,
+            "classes": [
+              "package",
+              "card",
+              "medium-package"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 16,
+              "y": 1376,
+              "width": 358,
+              "height": 1006
+            },
+            "style": {
+              "color": "rgb(30, 41, 59)",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "MORE ROOM TO GROW",
+            "id": null,
+            "classes": [
+              "package-label"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 41,
+              "y": 1405,
+              "width": 308,
+              "height": 21
+            },
+            "style": {
+              "color": "rgb(49, 91, 189)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "12.48px",
+              "fontWeight": "800",
+              "lineHeight": "20.9664px"
+            }
+          },
+          {
+            "tag": "h3",
+            "text": "Medium Business Package",
+            "id": null,
+            "classes": [],
+            "href": null,
+            "bounds": {
+              "x": 41,
+              "y": 1441,
+              "width": 308,
+              "height": 22
+            },
+            "style": {
+              "color": "rgb(30, 41, 59)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "\"Roboto Slab\", Rockwell, Georgia, serif",
+              "fontSize": "19.55px",
+              "fontWeight": "700",
+              "lineHeight": "22.4825px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "For established businesses that need more custom content, richer page layouts, interactive widgets, and integrations beyond a basic brochure website.",
+            "id": null,
+            "classes": [],
+            "href": null,
+            "bounds": {
+              "x": 41,
+              "y": 1477,
+              "width": 308,
+              "height": 108
+            },
+            "style": {
+              "color": "rgb(71, 85, 105)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "26.88px"
+            }
+          },
+          {
+            "tag": "a",
+            "text": "Discuss your project",
+            "id": null,
+            "classes": [
+              "button"
+            ],
+            "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Medium%20Business%20Package%20inquiry",
+            "bounds": {
+              "x": 41,
+              "y": 2309,
               "width": 195,
               "height": 48
             },
@@ -15845,7 +15845,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 2248,
+              "y": 2406,
               "width": 358,
               "height": 1210
             },
@@ -15868,12 +15868,12 @@
             "href": null,
             "bounds": {
               "x": 40,
-              "y": 2272,
+              "y": 2430,
               "width": 310,
               "height": 21
             },
             "style": {
-              "color": "rgb(174, 188, 234)",
+              "color": "rgb(241, 244, 255)",
               "backgroundColor": "rgba(0, 0, 0, 0)",
               "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
               "fontSize": "12.48px",
@@ -15889,7 +15889,7 @@
             "href": null,
             "bounds": {
               "x": 40,
-              "y": 2308,
+              "y": 2466,
               "width": 310,
               "height": 22
             },
@@ -15910,12 +15910,12 @@
             "href": null,
             "bounds": {
               "x": 40,
-              "y": 2344,
+              "y": 2502,
               "width": 310,
               "height": 134
             },
             "style": {
-              "color": "rgb(225, 232, 250)",
+              "color": "rgb(241, 244, 255)",
               "backgroundColor": "rgba(0, 0, 0, 0)",
               "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
               "fontSize": "16px",
@@ -15931,12 +15931,12 @@
             "href": null,
             "bounds": {
               "x": 40,
-              "y": 2497,
+              "y": 2656,
               "width": 310,
               "height": 134
             },
             "style": {
-              "color": "rgb(225, 232, 250)",
+              "color": "rgb(241, 244, 255)",
               "backgroundColor": "rgba(0, 0, 0, 0)",
               "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
               "fontSize": "16px",
@@ -15952,7 +15952,7 @@
             "href": null,
             "bounds": {
               "x": 40,
-              "y": 2651,
+              "y": 2809,
               "width": 310,
               "height": 37
             },
@@ -15975,7 +15975,7 @@
             "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Custom%20Development%20Package%20inquiry",
             "bounds": {
               "x": 40,
-              "y": 3386,
+              "y": 3544,
               "width": 196,
               "height": 48
             },
@@ -15999,7 +15999,7 @@
             "href": null,
             "bounds": {
               "x": 0,
-              "y": 3514,
+              "y": 3672,
               "width": 390,
               "height": 885
             },
@@ -16022,7 +16022,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 3570,
+              "y": 3728,
               "width": 358,
               "height": 21
             },
@@ -16043,7 +16043,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 3603,
+              "y": 3761,
               "width": 358,
               "height": 29
             },
@@ -16067,7 +16067,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 3671,
+              "y": 3829,
               "width": 358,
               "height": 313
             },
@@ -16088,7 +16088,7 @@
             "href": null,
             "bounds": {
               "x": 41,
-              "y": 3696,
+              "y": 3854,
               "width": 308,
               "height": 22
             },
@@ -16109,7 +16109,7 @@
             "href": null,
             "bounds": {
               "x": 41,
-              "y": 3732,
+              "y": 3891,
               "width": 308,
               "height": 108
             },
@@ -16133,7 +16133,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 4008,
+              "y": 4166,
               "width": 358,
               "height": 335
             },
@@ -16154,7 +16154,7 @@
             "href": null,
             "bounds": {
               "x": 41,
-              "y": 4033,
+              "y": 4191,
               "width": 308,
               "height": 45
             },
@@ -16175,7 +16175,7 @@
             "href": null,
             "bounds": {
               "x": 41,
-              "y": 4091,
+              "y": 4250,
               "width": 308,
               "height": 108
             },
@@ -16199,7 +16199,7 @@
             "href": null,
             "bounds": {
               "x": 0,
-              "y": 4399,
+              "y": 4557,
               "width": 390,
               "height": 1452
             },
@@ -16222,7 +16222,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 4455,
+              "y": 4613,
               "width": 358,
               "height": 21
             },
@@ -16243,7 +16243,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 4488,
+              "y": 4646,
               "width": 358,
               "height": 29
             },
@@ -16266,7 +16266,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 4534,
+              "y": 4692,
               "width": 358,
               "height": 164
             },
@@ -16290,7 +16290,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 4738,
+              "y": 4896,
               "width": 358,
               "height": 366
             },
@@ -16311,7 +16311,7 @@
             "href": null,
             "bounds": {
               "x": 41,
-              "y": 4763,
+              "y": 4921,
               "width": 308,
               "height": 22
             },
@@ -16332,7 +16332,7 @@
             "href": null,
             "bounds": {
               "x": 41,
-              "y": 4799,
+              "y": 4957,
               "width": 308,
               "height": 134
             },
@@ -16356,7 +16356,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 5123,
+              "y": 5282,
               "width": 358,
               "height": 313
             },
@@ -16377,7 +16377,7 @@
             "href": null,
             "bounds": {
               "x": 41,
-              "y": 5148,
+              "y": 5307,
               "width": 308,
               "height": 22
             },
@@ -16398,7 +16398,7 @@
             "href": null,
             "bounds": {
               "x": 41,
-              "y": 5185,
+              "y": 5343,
               "width": 308,
               "height": 108
             },
@@ -16422,7 +16422,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 5456,
+              "y": 5615,
               "width": 358,
               "height": 339
             },
@@ -16443,7 +16443,7 @@
             "href": null,
             "bounds": {
               "x": 41,
-              "y": 5481,
+              "y": 5640,
               "width": 308,
               "height": 22
             },
@@ -16464,7 +16464,7 @@
             "href": null,
             "bounds": {
               "x": 41,
-              "y": 5517,
+              "y": 5676,
               "width": 308,
               "height": 108
             },
@@ -16487,7 +16487,7 @@
             "href": null,
             "bounds": {
               "x": 0,
-              "y": 5851,
+              "y": 6009,
               "width": 390,
               "height": 696
             },
@@ -16510,7 +16510,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 5907,
+              "y": 6065,
               "width": 167,
               "height": 21
             },
@@ -16531,7 +16531,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 5940,
+              "y": 6098,
               "width": 167,
               "height": 29
             },
@@ -16552,7 +16552,7 @@
             "href": "http://127.0.0.1:4321/testimonial/john-l/",
             "bounds": {
               "x": 16,
-              "y": 5984,
+              "y": 6143,
               "width": 155,
               "height": 27
             },
@@ -16573,7 +16573,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 6039,
+              "y": 6197,
               "width": 358,
               "height": 204
             },
@@ -16594,7 +16594,7 @@
             "href": null,
             "bounds": {
               "x": 38,
-              "y": 6062,
+              "y": 6220,
               "width": 313,
               "height": 108
             },
@@ -16615,7 +16615,7 @@
             "href": null,
             "bounds": {
               "x": 38,
-              "y": 6169,
+              "y": 6327,
               "width": 313,
               "height": 52
             },
@@ -16636,7 +16636,7 @@
             "href": "http://127.0.0.1:4321/testimonial/rebecca-b/",
             "bounds": {
               "x": 271,
-              "y": 6194,
+              "y": 6352,
               "width": 81,
               "height": 27
             },
@@ -16657,7 +16657,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 6259,
+              "y": 6418,
               "width": 358,
               "height": 231
             },
@@ -16678,7 +16678,7 @@
             "href": null,
             "bounds": {
               "x": 38,
-              "y": 6282,
+              "y": 6440,
               "width": 313,
               "height": 134
             },
@@ -16699,7 +16699,7 @@
             "href": null,
             "bounds": {
               "x": 38,
-              "y": 6416,
+              "y": 6574,
               "width": 313,
               "height": 52
             },
@@ -16720,7 +16720,7 @@
             "href": "http://127.0.0.1:4321/testimonial/bryan-o/",
             "bounds": {
               "x": 271,
-              "y": 6441,
+              "y": 6599,
               "width": 81,
               "height": 27
             },
@@ -16743,7 +16743,7 @@
             "href": null,
             "bounds": {
               "x": 0,
-              "y": 6546,
+              "y": 6705,
               "width": 390,
               "height": 530
             },
@@ -16764,7 +16764,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 6613,
+              "y": 6772,
               "width": 358,
               "height": 126
             },
@@ -16785,7 +16785,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 6613,
+              "y": 6772,
               "width": 358,
               "height": 31
             },
@@ -16806,7 +16806,7 @@
             "href": "http://127.0.0.1:4321/about-us/",
             "bounds": {
               "x": 16,
-              "y": 6655,
+              "y": 6813,
               "width": 66,
               "height": 21
             },
@@ -16827,7 +16827,7 @@
             "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Schedule%20a%20call%20with%20Dev%20By%20Design",
             "bounds": {
               "x": 16,
-              "y": 6685,
+              "y": 6843,
               "width": 107,
               "height": 21
             },
@@ -16848,7 +16848,7 @@
             "href": "https://www.linkedin.com/company/dev-by-design/about/",
             "bounds": {
               "x": 16,
-              "y": 6715,
+              "y": 6873,
               "width": 60,
               "height": 21
             },
@@ -16869,7 +16869,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 6778,
+              "y": 6937,
               "width": 358,
               "height": 160
             },
@@ -16890,7 +16890,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 6778,
+              "y": 6937,
               "width": 358,
               "height": 31
             },
@@ -16911,7 +16911,7 @@
             "href": null,
             "bounds": {
               "x": 16,
-              "y": 6817,
+              "y": 6976,
               "width": 358,
               "height": 54
             },
@@ -16934,7 +16934,7 @@
             "href": "mailto:Katria.Lesser@WebDevByDesign.com?subject=Website%20project%20inquiry",
             "bounds": {
               "x": 16,
-              "y": 6890,
+              "y": 7049,
               "width": 148,
               "height": 48
             },
@@ -16955,7 +16955,7 @@
             "href": null,
             "bounds": {
               "x": 48,
-              "y": 7024,
+              "y": 7182,
               "width": 294,
               "height": 24
             },
@@ -17154,7 +17154,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
         ],
         "scripts": [
           "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
@@ -18232,7 +18232,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
         ],
         "scripts": [
           "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
@@ -19300,7 +19300,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
         ],
         "scripts": [
           "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
@@ -20216,7 +20216,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
         ],
         "scripts": [
           "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
@@ -21115,7 +21115,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
         ],
         "scripts": [
           "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
@@ -22031,7 +22031,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
         ],
         "scripts": [
           "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
@@ -22930,7 +22930,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
         ],
         "scripts": [
           "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
@@ -23867,7 +23867,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
         ],
         "scripts": [
           "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
@@ -24787,7 +24787,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
         ],
         "scripts": [
           "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
@@ -25724,7 +25724,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
         ],
         "scripts": [
           "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
@@ -26644,7 +26644,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
         ],
         "scripts": [
           "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
@@ -27581,7 +27581,7 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.BUKQVX1i.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
         ],
         "scripts": [
           "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
