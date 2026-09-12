@@ -4,6 +4,7 @@ export const site = {
   url: "https://webdevbydesign.com",
   email: "Katria.Lesser@WebDevByDesign.com",
   analyticsId: "G-V89GHWN541",
+  salesIqWidgetUrl: "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea",
   description: "Professional web design, development, accessibility testing, and content services for businesses, nonprofits, and universities.",
   linkedIn: "https://www.linkedin.com/company/dev-by-design/about/",
   navigation: [

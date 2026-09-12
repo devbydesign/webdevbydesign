@@ -1,0 +1,9 @@
+---
+import { site } from "../data/site";
+---
+
+<script is:inline>
+  window.$zoho = window.$zoho || {};
+  $zoho.salesiq = $zoho.salesiq || { ready: function () {} };
+</script>
+<script is:inline id="zsiqscript" src={site.salesIqWidgetUrl} defer></script>

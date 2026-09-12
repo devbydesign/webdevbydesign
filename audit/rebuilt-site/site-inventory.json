@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-09-12T01:12:35.379Z",
+  "capturedAt": "2026-09-12T01:16:50.539Z",
   "origin": "http://127.0.0.1:4321",
   "pages": [
     {
@@ -277,11 +277,15 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css",
-          "http://127.0.0.1:4321/_astro/index.-wmP3uMH.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "http://127.0.0.1:4321/_astro/index.-wmP3uMH.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -2212,7 +2216,7 @@
             "href": "http://127.0.0.1:4321/#top",
             "bounds": {
               "x": 1360,
-              "y": 932,
+              "y": 860,
               "width": 48,
               "height": 48
             },
@@ -2223,6 +2227,33 @@
               "fontSize": "17.6px",
               "fontWeight": "400",
               "lineHeight": "29.568px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 1170,
+              "y": 965,
+              "width": 170,
+              "height": 17
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -2501,11 +2532,15 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css",
-          "http://127.0.0.1:4321/_astro/index.-wmP3uMH.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "http://127.0.0.1:4321/_astro/index.-wmP3uMH.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -4434,7 +4469,7 @@
             "href": "http://127.0.0.1:4321/#top",
             "bounds": {
               "x": 326,
-              "y": 792,
+              "y": 720,
               "width": 48,
               "height": 48
             },
@@ -4445,6 +4480,33 @@
               "fontSize": "16px",
               "fontWeight": "400",
               "lineHeight": "26.88px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 167,
+              "y": 809,
+              "width": 136,
+              "height": 14
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -4642,10 +4704,14 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -6007,7 +6073,7 @@
             "href": "http://127.0.0.1:4321/about-us/#top",
             "bounds": {
               "x": 1360,
-              "y": 932,
+              "y": 860,
               "width": 48,
               "height": 48
             },
@@ -6018,6 +6084,33 @@
               "fontSize": "17.6px",
               "fontWeight": "400",
               "lineHeight": "29.568px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 1170,
+              "y": 965,
+              "width": 170,
+              "height": 17
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -6213,10 +6306,14 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -7576,7 +7673,7 @@
             "href": "http://127.0.0.1:4321/about-us/#top",
             "bounds": {
               "x": 326,
-              "y": 792,
+              "y": 720,
               "width": 48,
               "height": 48
             },
@@ -7587,6 +7684,33 @@
               "fontSize": "16px",
               "fontWeight": "400",
               "lineHeight": "26.88px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 167,
+              "y": 809,
+              "width": 136,
+              "height": 14
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -8001,10 +8125,14 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -10280,7 +10408,7 @@
             "href": "http://127.0.0.1:4321/portfolio/#top",
             "bounds": {
               "x": 1360,
-              "y": 932,
+              "y": 860,
               "width": 48,
               "height": 48
             },
@@ -10291,6 +10419,33 @@
               "fontSize": "17.6px",
               "fontWeight": "400",
               "lineHeight": "29.568px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 1170,
+              "y": 965,
+              "width": 170,
+              "height": 17
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -10703,10 +10858,14 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -12980,7 +13139,7 @@
             "href": "http://127.0.0.1:4321/portfolio/#top",
             "bounds": {
               "x": 326,
-              "y": 792,
+              "y": 720,
               "width": 48,
               "height": 48
             },
@@ -12991,6 +13150,33 @@
               "fontSize": "16px",
               "fontWeight": "400",
               "lineHeight": "26.88px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 167,
+              "y": 809,
+              "width": 136,
+              "height": 14
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -13206,10 +13392,14 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -14981,7 +15171,7 @@
             "href": "http://127.0.0.1:4321/pricing/#top",
             "bounds": {
               "x": 1360,
-              "y": 932,
+              "y": 860,
               "width": 48,
               "height": 48
             },
@@ -14992,6 +15182,33 @@
               "fontSize": "17.6px",
               "fontWeight": "400",
               "lineHeight": "29.568px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 1170,
+              "y": 965,
+              "width": 170,
+              "height": 17
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -15205,10 +15422,14 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -16978,7 +17199,7 @@
             "href": "http://127.0.0.1:4321/pricing/#top",
             "bounds": {
               "x": 326,
-              "y": 792,
+              "y": 720,
               "width": 48,
               "height": 48
             },
@@ -16989,6 +17210,33 @@
               "fontSize": "16px",
               "fontWeight": "400",
               "lineHeight": "26.88px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 167,
+              "y": 809,
+              "width": 136,
+              "height": 14
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -17154,10 +17402,14 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -18058,7 +18310,7 @@
             "href": "http://127.0.0.1:4321/contact-us/#top",
             "bounds": {
               "x": 1360,
-              "y": 932,
+              "y": 860,
               "width": 48,
               "height": 48
             },
@@ -18069,6 +18321,33 @@
               "fontSize": "17.6px",
               "fontWeight": "400",
               "lineHeight": "29.568px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 1170,
+              "y": 965,
+              "width": 170,
+              "height": 17
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -18232,10 +18511,14 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -19134,7 +19417,7 @@
             "href": "http://127.0.0.1:4321/contact-us/#top",
             "bounds": {
               "x": 326,
-              "y": 792,
+              "y": 720,
               "width": 48,
               "height": 48
             },
@@ -19145,6 +19428,33 @@
               "fontSize": "16px",
               "fontWeight": "400",
               "lineHeight": "26.88px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 167,
+              "y": 809,
+              "width": 136,
+              "height": 14
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -19300,10 +19610,14 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -20058,7 +20372,7 @@
             "href": "http://127.0.0.1:4321/testimonial/john-l/#top",
             "bounds": {
               "x": 1360,
-              "y": 932,
+              "y": 860,
               "width": 48,
               "height": 48
             },
@@ -20069,6 +20383,33 @@
               "fontSize": "17.6px",
               "fontWeight": "400",
               "lineHeight": "29.568px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 1170,
+              "y": 965,
+              "width": 170,
+              "height": 17
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -20216,10 +20557,14 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -20949,7 +21294,7 @@
             "href": "http://127.0.0.1:4321/testimonial/john-l/#top",
             "bounds": {
               "x": 326,
-              "y": 792,
+              "y": 720,
               "width": 48,
               "height": 48
             },
@@ -20960,6 +21305,33 @@
               "fontSize": "16px",
               "fontWeight": "400",
               "lineHeight": "26.88px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 167,
+              "y": 809,
+              "width": 136,
+              "height": 14
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -21115,10 +21487,14 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -21873,7 +22249,7 @@
             "href": "http://127.0.0.1:4321/testimonial/vicki-r/#top",
             "bounds": {
               "x": 1360,
-              "y": 932,
+              "y": 860,
               "width": 48,
               "height": 48
             },
@@ -21884,6 +22260,33 @@
               "fontSize": "17.6px",
               "fontWeight": "400",
               "lineHeight": "29.568px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 1170,
+              "y": 965,
+              "width": 170,
+              "height": 17
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -22031,10 +22434,14 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -22764,7 +23171,7 @@
             "href": "http://127.0.0.1:4321/testimonial/vicki-r/#top",
             "bounds": {
               "x": 326,
-              "y": 792,
+              "y": 720,
               "width": 48,
               "height": 48
             },
@@ -22775,6 +23182,33 @@
               "fontSize": "16px",
               "fontWeight": "400",
               "lineHeight": "26.88px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 167,
+              "y": 809,
+              "width": 136,
+              "height": 14
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -22930,10 +23364,14 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -23709,7 +24147,7 @@
             "href": "http://127.0.0.1:4321/testimonial/sherwin-h/#top",
             "bounds": {
               "x": 1360,
-              "y": 932,
+              "y": 860,
               "width": 48,
               "height": 48
             },
@@ -23720,6 +24158,33 @@
               "fontSize": "17.6px",
               "fontWeight": "400",
               "lineHeight": "29.568px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 1170,
+              "y": 965,
+              "width": 170,
+              "height": 17
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -23867,10 +24332,14 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -24621,7 +25090,7 @@
             "href": "http://127.0.0.1:4321/testimonial/sherwin-h/#top",
             "bounds": {
               "x": 326,
-              "y": 792,
+              "y": 720,
               "width": 48,
               "height": 48
             },
@@ -24632,6 +25101,33 @@
               "fontSize": "16px",
               "fontWeight": "400",
               "lineHeight": "26.88px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 167,
+              "y": 809,
+              "width": 136,
+              "height": 14
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -24787,10 +25283,14 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -25566,7 +26066,7 @@
             "href": "http://127.0.0.1:4321/testimonial/rebecca-b/#top",
             "bounds": {
               "x": 1360,
-              "y": 932,
+              "y": 860,
               "width": 48,
               "height": 48
             },
@@ -25577,6 +26077,33 @@
               "fontSize": "17.6px",
               "fontWeight": "400",
               "lineHeight": "29.568px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 1170,
+              "y": 965,
+              "width": 170,
+              "height": 17
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -25724,10 +26251,14 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -26478,7 +27009,7 @@
             "href": "http://127.0.0.1:4321/testimonial/rebecca-b/#top",
             "bounds": {
               "x": 326,
-              "y": 792,
+              "y": 720,
               "width": 48,
               "height": 48
             },
@@ -26489,6 +27020,33 @@
               "fontSize": "16px",
               "fontWeight": "400",
               "lineHeight": "26.88px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 167,
+              "y": 809,
+              "width": 136,
+              "height": 14
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -26644,10 +27202,14 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -27423,7 +27985,7 @@
             "href": "http://127.0.0.1:4321/testimonial/bryan-o/#top",
             "bounds": {
               "x": 1360,
-              "y": 932,
+              "y": 860,
               "width": 48,
               "height": 48
             },
@@ -27434,6 +27996,33 @@
               "fontSize": "17.6px",
               "fontWeight": "400",
               "lineHeight": "29.568px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 1170,
+              "y": 965,
+              "width": 170,
+              "height": 17
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]
@@ -27581,10 +28170,14 @@
           }
         ],
         "stylesheets": [
-          "http://127.0.0.1:4321/_astro/BaseLayout.ZRFuzNL3.css"
+          "http://127.0.0.1:4321/_astro/BaseLayout.D4HTGgG_.css",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/css/float.phMQnOuhNFymBjBXTx_X0pbw2dBBfzn0pXmDM5y5NFQ4u0E2d5BHLMkSwmqix6zB.css"
         ],
         "scripts": [
-          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541"
+          "https://www.googletagmanager.com/gtag/js?id=G-V89GHWN541",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain~modern.uT12Am6GtghF512802w61Q5Ut3brY_RzqVxyAlLm7tC5VE7ZwafRK0Xlp-y3lFOo.js",
+          "https://static.zohocdn.com/zoho-salesiq-widgets/embed/fl/js/float~plain.W49f0rhJA8MqdxK4ygMwM9F1WKaIO3psDRFv7P5rs69h1F_Lwqu4fhVihGz8RiIe.js",
+          "https://salesiq.zohopublic.com/widget?wc=siq80849ebe0a0989eaba6fdf41558f7acdd9f5788d236d14d2d74b8ce1c7241aea"
         ],
         "elements": [
           {
@@ -28335,7 +28928,7 @@
             "href": "http://127.0.0.1:4321/testimonial/bryan-o/#top",
             "bounds": {
               "x": 326,
-              "y": 792,
+              "y": 720,
               "width": 48,
               "height": 48
             },
@@ -28346,6 +28939,33 @@
               "fontSize": "16px",
               "fontWeight": "400",
               "lineHeight": "26.88px"
+            }
+          },
+          {
+            "tag": "p",
+            "text": "How can I help?",
+            "id": null,
+            "classes": [
+              "zsiq-clr6",
+              "zsiq-m0",
+              "zsiq-mT3",
+              "zsiq-elips",
+              "zsiq-tultip-desc"
+            ],
+            "href": null,
+            "bounds": {
+              "x": 167,
+              "y": 809,
+              "width": 136,
+              "height": 14
+            },
+            "style": {
+              "color": "rgb(102, 102, 102)",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "fontFamily": "Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+              "fontSize": "13px",
+              "fontWeight": "400",
+              "lineHeight": "16.9px"
             }
           }
         ]

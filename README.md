@@ -30,6 +30,7 @@ npm run audit:a11y
 ## Content maintenance
 
 - Global business information and navigation: `src/data/site.ts`
+- Google Analytics and Zoho SalesIQ identifiers: `src/data/site.ts`
 - Team biographies: `src/data/team.ts`
 - Testimonials: `src/data/testimonials.ts`
 - Portfolio projects: `src/data/portfolio.ts`

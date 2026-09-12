@@ -113,6 +113,7 @@ Retire and redirect:
 - ProfessionalService structured data.
 - XML sitemap and `robots.txt`.
 - Existing Google Analytics measurement ID `G-V89GHWN541` retained.
+- Zoho SalesIQ live chat loaded once from the shared layout using its official `zohopublic.com` widget endpoint.
 
 ## Review and deployment sequence
 
