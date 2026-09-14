@@ -1,8 +1,9 @@
 import type { ImageMetadata } from "astro";
 import katria from "../assets/images/team/katria.png";
-import monique from "../assets/images/team/monique.jpg";
+import jared from "../assets/images/team/jared.png";
 import richard from "../assets/images/team/richard.png";
 import lance from "../assets/images/team/lance.jpg";
+import ben from "../assets/images/team/ben.jpg";
 
 export type TeamMember = {
   name: string;
@@ -26,12 +27,12 @@ export const team: TeamMember[] = [
     ],
   },
   {
-    name: "Monique Hale",
-    title: "WordPress Developer & Site Builder",
-    image: monique,
+    name: "Jared Hale",
+    title: "AI-Assisted Web Developer & Creative Technologist",
+    image: jared,
     biography: [
-      "Monique is a detail-oriented web developer focused on WordPress and Drupal. As a site builder, she specializes in consulting with clients to improve their content strategies and approaches. Monique has worked with Dev By Design on many projects, including launching an online education platform that the team can recreate and configure for other businesses interested in selling online courses. Before starting her freelance website work, she worked for a software company for 10 years.",
-      "Monique also has a background in public health, is fluent in Spanish, and is passionate about education. She enjoys gardening, reading, and spending time with her adorable grandkids.",
+      "Jared is a multidisciplinary web developer and creative technologist with experience across WordPress, Drupal, custom HTML and JavaScript, analytics, and interactive development. He uses modern AI-assisted workflows to accelerate research, implementation, debugging, and optimization while keeping project goals, sound architecture, and careful review at the center of the work.",
+      "His background also includes GA4 and Google Tag Manager instrumentation, data visualization, local and hosted language-model workflows, Unreal Engine development, and hands-on technical troubleshooting. He enjoys turning complex technical needs into efficient, maintainable digital experiences.",
     ],
   },
   {
@@ -50,6 +51,16 @@ export const team: TeamMember[] = [
     biography: [
       "Lance enjoys creating elegant solutions to present data and automate tasks. He has an engineering background with over twenty years of software and web development experience. Lance worked for networking giant Novell, Inc., doing technical support, product testing, and software engineering. He polished his skills working at Extended Systems before founding Print Tracker, a company with customers on six continents. Lance enjoys research and development, troubleshooting, and taking on challenges.",
       "Lance lives with his family in Boise, Idaho, where he enjoys outdoor activities and caring for his chickens. He enjoys setting up zip lines and go-kart arenas in their large yard for the kids.",
+    ],
+  },
+  {
+    name: "Ben Hall",
+    title: "Full-Stack Drupal Developer",
+    image: ben,
+    imagePosition: "50% 55%",
+    biography: [
+      "Ben is a full-stack web developer with 13 years of Drupal experience across full-time and freelance roles. His work in university and nonprofit environments spans site building, front-end development, and support for back-end and server-side systems. He increasingly specializes in custom Drupal modules and solutions tailored to each project’s needs.",
+      "Ben enjoys the problem-solving side of web development and learning new technologies as projects evolve. Outside of work, he enjoys reading, playing video games, and spending time with his wife.",
     ],
   },
 ];
