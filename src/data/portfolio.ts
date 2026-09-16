@@ -3,16 +3,13 @@ import stanfordUit from "../assets/images/portfolio/stanford-uit.jpg";
 import sunlightGiving from "../assets/images/portfolio/sunlight-giving.jpg";
 import wildcardGiving from "../assets/images/portfolio/wildcard-giving.jpg";
 import byu from "../assets/images/portfolio/byu.jpg";
-import z1 from "../assets/images/portfolio/z1-consultant.svg";
 import rbb from "../assets/images/portfolio/rbb-marketing.jpg";
 import givingStanford from "../assets/images/portfolio/giving-stanford.jpg";
-import stanfordEarth from "../assets/images/portfolio/stanford-earth.jpg";
 import goodGravy from "../assets/images/portfolio/good-gravy-films.jpg";
 import clientCenter from "../assets/images/portfolio/client-center-360.jpg";
 import speechCloud from "../assets/images/portfolio/speech-cloud.jpg";
 import familyWholeness from "../assets/images/portfolio/family-wholeness.jpg";
 import hiscox from "../assets/images/portfolio/hiscox.jpg";
-import boiseDiscovery from "../assets/images/portfolio/boise-discovery.jpg";
 import imagineLearning from "../assets/images/portfolio/imagine-learning.jpg";
 
 export type PortfolioProject = {
@@ -62,19 +59,10 @@ export const portfolio: PortfolioProject[] = [
     imagePosition: "50% 25%",
   },
   {
-    name: "Z1 Consultant",
-    url: "https://z1consultant.com/",
-    image: z1,
-    services: "WordPress · Redesign · User journey",
-    description: "A WordPress redesign and targeted improvements focused on clarity, conversion, and a stronger client journey.",
-    size: "wide",
-    imagePosition: "50% 10%",
-  },
-  {
     name: "RBB Marketing",
     url: "https://rbbmarketing.com/",
     image: rbb,
-    services: "Full design · WordPress build · Brand implementation",
+    services: "Full design · WordPress build · Email marketing · Brand implementation",
     description: "A complete website design and build presenting a broad collection of marketing services and client resources.",
     size: "standard",
   },
@@ -84,16 +72,7 @@ export const portfolio: PortfolioProject[] = [
     image: givingStanford,
     services: "Storyblok · Headless React · Front-end theming",
     description: "Foundational headless research and front-end theming contributions for Stanford’s giving experience.",
-    size: "standard",
-  },
-  {
-    name: "Stanford Doerr School of Sustainability",
-    url: "https://earth.stanford.edu/",
-    image: stanfordEarth,
-    services: "Drupal · Front-end styling · Maintenance",
-    description: "Front-end improvements and ongoing maintenance for Stanford Earth’s earlier digital experience.",
     size: "wide",
-    historical: true,
   },
   {
     name: "Good Gravy Films",
@@ -101,7 +80,7 @@ export const portfolio: PortfolioProject[] = [
     image: goodGravy,
     services: "Design enhancement · Development · Maintenance",
     description: "Website design enhancements and development support for an organization funding independent film.",
-    size: "wide",
+    size: "standard",
   },
   {
     name: "ClientCenter360",
@@ -109,14 +88,14 @@ export const portfolio: PortfolioProject[] = [
     image: clientCenter,
     services: "Product design · Development · Client resources",
     description: "A designed and built client resource platform supporting promotional-industry businesses and their customers.",
-    size: "standard",
+    size: "wide",
   },
   {
     name: "SpeechCloud",
     url: "https://speechcloud.com/",
     image: speechCloud,
-    services: "Web assets · Visual design · Print collateral",
-    description: "Web and print resources shaped to support a consistent, professional product presentation.",
+    services: "Web assets · Visual design",
+    description: "Web assets and visual design shaped to support a consistent, professional product presentation for an earlier version of this website.",
     size: "standard",
   },
   {
@@ -137,20 +116,11 @@ export const portfolio: PortfolioProject[] = [
     historical: true,
   },
   {
-    name: "Boise Discovery",
-    url: "https://boisediscovery.com/",
-    image: boiseDiscovery,
-    services: "Small-business WordPress development",
-    description: "A practical WordPress presence built around the needs of a growing local business.",
-    size: "standard",
-  },
-  {
     name: "Imagine Learning",
     url: "https://www.imaginelearning.com/",
     image: imagineLearning,
-    services: "Drupal · Vue components · Editorial UX",
-    description: "Drupal architecture, reusable components, and editorial-experience improvements for earlier versions of Imagine Learning websites.",
+    services: "Drupal site planning · Theming · Drupal version upgrades",
+    description: "Contributed to their customer support website for several years.",
     size: "standard",
-    historical: true,
   },
 ];
