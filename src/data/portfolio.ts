@@ -59,14 +59,6 @@ export const portfolio: PortfolioProject[] = [
     imagePosition: "50% 25%",
   },
   {
-    name: "RBB Marketing",
-    url: "https://rbbmarketing.com/",
-    image: rbb,
-    services: "Full design · WordPress build · Email marketing · Brand implementation",
-    description: "A complete website design and build presenting a broad collection of marketing services and client resources.",
-    size: "standard",
-  },
-  {
     name: "Giving at Stanford",
     url: "https://giving.stanford.edu/",
     image: givingStanford,
@@ -74,6 +66,14 @@ export const portfolio: PortfolioProject[] = [
     description: "Foundational headless research and front-end theming contributions for Stanford’s giving experience.",
     size: "wide",
     imagePosition: "50% 20%",
+  },
+  {
+    name: "RBB Marketing",
+    url: "https://rbbmarketing.com/",
+    image: rbb,
+    services: "Full design · WordPress build · Email marketing · Brand implementation",
+    description: "A complete website design and build presenting a broad collection of marketing services and client resources.",
+    size: "standard",
   },
   {
     name: "Good Gravy Films",
@@ -92,6 +92,14 @@ export const portfolio: PortfolioProject[] = [
     size: "wide",
   },
   {
+    name: "Imagine Learning",
+    url: "https://www.imaginelearning.com/",
+    image: imagineLearning,
+    services: "Drupal site planning · Theming · Drupal version upgrades",
+    description: "Contributed to their customer support website for several years.",
+    size: "wide",
+  },
+  {
     name: "SpeechCloud",
     url: "https://speechcloud.com/",
     image: speechCloud,
@@ -100,12 +108,12 @@ export const portfolio: PortfolioProject[] = [
     size: "standard",
   },
   {
-    name: "Imagine Learning",
-    url: "https://www.imaginelearning.com/",
-    image: imagineLearning,
-    services: "Drupal site planning · Theming · Drupal version upgrades",
-    description: "Contributed to their customer support website for several years.",
-    size: "wide",
+    name: "JL Custom Home Plans",
+    url: "https://jlcustomhomeplans.com/index.html",
+    image: jlCustomHomePlans,
+    services: "Web design · Development · Plan gallery",
+    description: "A custom house plan website presenting front elevations and floor plans through an interactive plan gallery.",
+    size: "standard",
   },
   {
     name: "Hiscox",
@@ -115,13 +123,5 @@ export const portfolio: PortfolioProject[] = [
     description: "Drupal development contributions within a large-scale business website environment.",
     size: "wide",
     historical: true,
-  },
-  {
-    name: "JL Custom Home Plans",
-    url: "https://jlcustomhomeplans.com/index.html",
-    image: jlCustomHomePlans,
-    services: "Web design · Development · Plan gallery",
-    description: "A custom house plan website presenting front elevations and floor plans through an interactive plan gallery.",
-    size: "standard",
   },
 ];

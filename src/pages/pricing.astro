@@ -108,7 +108,9 @@ const mediumFeatures = [
 </BaseLayout>
 
 <style>
+  section.section, header.section { padding-block: calc(var(--space-xl) * 0.8); }
   .pricing-hero { background: linear-gradient(145deg, #f7f9ff, #e7edff); }
+  .pricing-hero .lede { margin-bottom: 0; }
   .section-heading { max-width: 56rem; margin-bottom: 2.5rem; }
   .package-grid { display: grid; grid-template-columns: repeat(2, minmax(18rem, 1fr)); align-items: start; gap: 1.5rem; }
   .package { padding: clamp(1.5rem, 4vw, 2.5rem); }
