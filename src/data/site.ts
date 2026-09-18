@@ -15,7 +15,14 @@ export const site = {
   navigation: [
     { label: "Home", href: pageHref("/") },
     { label: "About", href: pageHref("/about-us/") },
-    { label: "Portfolio", href: pageHref("/portfolio/") },
+    {
+      label: "Portfolio",
+      href: pageHref("/portfolio/"),
+      children: [
+        { label: "Portfolio", href: pageHref("/portfolio/") },
+        { label: "Testimonials", href: pageHref("/testimonial/john-l/") },
+      ],
+    },
     { label: "Pricing", href: pageHref("/pricing/") },
     { label: "Contact", href: pageHref("/contact-us/") },
   ],

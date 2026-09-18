@@ -8,9 +8,9 @@ import givingStanford from "../assets/images/portfolio/giving-stanford.jpg";
 import goodGravy from "../assets/images/portfolio/good-gravy-films.jpg";
 import clientCenter from "../assets/images/portfolio/client-center-360.jpg";
 import speechCloud from "../assets/images/portfolio/speech-cloud.jpg";
-import familyWholeness from "../assets/images/portfolio/family-wholeness.jpg";
 import hiscox from "../assets/images/portfolio/hiscox.jpg";
 import imagineLearning from "../assets/images/portfolio/imagine-learning.jpg";
+import jlCustomHomePlans from "../assets/images/portfolio/jl-custom-home-plans.jpg";
 
 export type PortfolioProject = {
   name: string;
@@ -73,6 +73,7 @@ export const portfolio: PortfolioProject[] = [
     services: "Storyblok · Headless React · Front-end theming",
     description: "Foundational headless research and front-end theming contributions for Stanford’s giving experience.",
     size: "wide",
+    imagePosition: "50% 20%",
   },
   {
     name: "Good Gravy Films",
@@ -99,11 +100,11 @@ export const portfolio: PortfolioProject[] = [
     size: "standard",
   },
   {
-    name: "Family Wholeness",
-    url: "https://familywholeness.org/",
-    image: familyWholeness,
-    services: "Web assets · Visual design · Content support",
-    description: "Visual and web resources created to clarify the organization’s mission and connect with its audience.",
+    name: "Imagine Learning",
+    url: "https://www.imaginelearning.com/",
+    image: imagineLearning,
+    services: "Drupal site planning · Theming · Drupal version upgrades",
+    description: "Contributed to their customer support website for several years.",
     size: "wide",
   },
   {
@@ -116,11 +117,11 @@ export const portfolio: PortfolioProject[] = [
     historical: true,
   },
   {
-    name: "Imagine Learning",
-    url: "https://www.imaginelearning.com/",
-    image: imagineLearning,
-    services: "Drupal site planning · Theming · Drupal version upgrades",
-    description: "Contributed to their customer support website for several years.",
+    name: "JL Custom Home Plans",
+    url: "https://jlcustomhomeplans.com/index.html",
+    image: jlCustomHomePlans,
+    services: "Web design · Development · Plan gallery",
+    description: "A custom house plan website presenting front elevations and floor plans through an interactive plan gallery.",
     size: "standard",
   },
 ];

@@ -59,8 +59,8 @@ import { emailHref } from "../data/site";
 </BaseLayout>
 
 <style>
-  .portfolio-intro { color: white; background: radial-gradient(circle at 80% 15%, rgb(95 134 244 / 0.34), transparent 32%), linear-gradient(140deg, var(--slate) 0%, var(--navy) 100%); }
-  .portfolio-intro h1 { max-width: 60rem; color: white; font-size: clamp(2.8rem, 6.4vw, 5.8rem); letter-spacing: -0.045em; }
+  .portfolio-intro { padding-block-start: calc(var(--space-xl) - 2.5rem); color: white; background: radial-gradient(circle at 80% 15%, rgb(95 134 244 / 0.34), transparent 32%), linear-gradient(140deg, var(--slate) 0%, var(--navy) 100%); }
+  .portfolio-intro h1 { max-width: 60rem; color: white; font-size: clamp(1.96rem, 4.48vw, 4.06rem); letter-spacing: -0.045em; }
   .portfolio-intro h1 span { color: var(--periwinkle); }
   .portfolio-intro .eyebrow { color: #dce5ff; }
   .intro-grid { display: grid; grid-template-columns: minmax(20rem, 1.6fr) minmax(15rem, 0.8fr); gap: clamp(2rem, 8vw, 7rem); margin-top: 3rem; }
@@ -82,6 +82,9 @@ import { emailHref } from "../data/site";
   .project-card a:hover .project-shade { background: linear-gradient(0deg, rgb(3 10 37 / 0.94) 0%, rgb(3 10 37 / 0.66) 48%, rgb(3 10 37 / 0.14) 100%); }
   .portfolio-cta .lede { margin-inline: auto; }
   .portfolio-cta .button { margin-top: 1rem; }
+  @media (max-width: 42rem) {
+    .portfolio-intro { padding-block-start: 1rem; }
+  }
   @media (max-width: 48rem) {
     .intro-grid { grid-template-columns: 1fr; }
     .portfolio-grid { grid-template-columns: 1fr; }
