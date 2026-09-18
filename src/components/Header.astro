@@ -66,9 +66,9 @@ const isCurrent = (href: string) => href === homeHref ? currentPath === homeHref
   .has-dropdown > a { gap: 0.4rem; align-items: center; }
   .chevron { width: 0.65rem; height: 0.45rem; transition: transform 160ms ease; }
   .has-dropdown:hover .chevron, .has-dropdown:focus-within .chevron { transform: rotate(180deg); }
-  .dropdown { position: absolute; top: 100%; left: 50%; z-index: 60; display: none; min-width: 10.5rem; margin: 0; padding: 0.45rem; list-style: none; background: var(--slate); border-radius: 0.75rem; box-shadow: 0 12px 26px rgb(15 23 42 / 0.3); transform: translateX(-50%); }
+  .dropdown { position: absolute; top: 100%; left: 0; z-index: 60; display: none; min-width: 10.5rem; margin: 0; padding: 0.45rem; list-style: none; background: var(--slate); border-radius: 0.75rem; box-shadow: 0 12px 26px rgb(15 23 42 / 0.3); }
   .has-dropdown:hover .dropdown, .has-dropdown:focus-within .dropdown { display: block; }
-  .dropdown a { display: flex; justify-content: center; padding: 0.6rem 0.9rem; border-radius: 0.5rem; font-weight: 650; white-space: nowrap; }
+  .dropdown a { display: flex; justify-content: flex-start; padding: 0.6rem 0.9rem; border-radius: 0.5rem; font-weight: 650; white-space: nowrap; }
   .dropdown a::after { content: none; }
   .dropdown a:hover { background: rgb(255 255 255 / 0.08); }
   .mobile-menu { display: none; }

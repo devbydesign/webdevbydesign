@@ -88,7 +88,7 @@ export const portfolio: PortfolioProject[] = [
     url: "https://clientcenter360.com/",
     image: clientCenter,
     services: "Product design · Development · Client resources",
-    description: "A designed and built client resource platform supporting promotional-industry businesses and their customers.",
+    description: "Designed and built client resource platform supporting promotional-industry businesses and their customers.",
     size: "wide",
   },
   {

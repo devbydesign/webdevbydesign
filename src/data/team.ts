@@ -28,10 +28,10 @@ export const team: TeamMember[] = [
   },
   {
     name: "Jared Hale",
-    title: "AI-Assisted Web Developer & Creative Technologist",
+    title: "AI Specialist Web Developer & Creative Technologist",
     image: jared,
     biography: [
-      "Jared is a multidisciplinary web developer and creative technologist with experience across WordPress, Drupal, custom HTML and JavaScript, analytics, and interactive development. He uses modern AI-assisted workflows to accelerate research, implementation, debugging, and optimization while keeping project goals, sound architecture, and careful review at the center of the work.",
+      "Jared is a multidisciplinary web developer and creative technologist with experience across WordPress, Drupal, custom HTML and JavaScript, analytics, and interactive development. He uses modern AI-powered workflows to accelerate research, implementation, debugging, and optimization while keeping project goals, sound architecture, and careful review at the center of the work.",
       "His background also includes GA4 and Google Tag Manager instrumentation, data visualization, local and hosted language-model workflows, Unreal Engine development, and hands-on technical troubleshooting. He enjoys turning complex technical needs into efficient, maintainable digital experiences.",
     ],
   },
