@@ -151,7 +151,7 @@ const values = [
   .summary-actions { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 2rem; }
   .credentials { padding-block: calc(var(--space-xl) * 0.8); background: var(--surface-soft); }
   .credential-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
-  .credential { display: flex; min-height: 18rem; flex-direction: column; justify-content: center; padding: 1.5rem; background: white; border: 1px solid var(--line); border-radius: var(--radius); }
+  .credential { display: flex; min-height: 14.5rem; flex-direction: column; justify-content: center; padding: 1rem 1.5rem; background: white; border: 1px solid var(--line); border-radius: var(--radius); }
   .credential :global(img) { max-width: 13rem; max-height: 6rem; margin: 0 auto 1.4rem; object-fit: contain; }
   .credential-stanford { flex-direction: row; align-items: center; gap: 1.3rem; }
   .credential-stanford :global(img) { width: 7rem; max-height: 9rem; margin: 0; }
@@ -160,13 +160,13 @@ const values = [
   .credential p { margin: 0; color: var(--ink-soft); font-size: var(--step--1); }
   .partner-stack { gap: 1.4rem; }
   .partner-stack :global(img) { margin-bottom: 0; }
-  .partner-note { margin: 0; color: var(--ink-soft); font-size: 1.8rem; font-weight: 700; text-align: center; }
+  .partner-stack .partner-note { margin: 0; color: var(--ink-soft); font-size: 1.8rem; font-weight: 700; text-align: center; }
   @media (max-width: 52rem) {
     .service-grid, .credential-grid { grid-template-columns: 1fr; }
     .service-card { min-height: auto; }
     .value-grid { grid-template-columns: 1fr; }
     .pricing-layout { grid-template-columns: 1fr; }
-    .credential { min-height: 13rem; }
+    .credential { min-height: 11.5rem; }
   }
   @media (max-width: 42rem) {
     .hero { min-height: 34rem; }
