@@ -31,11 +31,11 @@ jobs:
         run: npm run build
         env:
           ASTRO_TELEMETRY_DISABLED: 1
-          SITE_BASE: /webdevbydesign
+          SITE_BASE: /
       - name: Validate generated site
         run: npm run check:built
         env:
-          SITE_BASE: /webdevbydesign
+          SITE_BASE: /
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
