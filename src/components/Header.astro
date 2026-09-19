@@ -19,10 +19,10 @@ const isCurrent = (href: string) => href === homeHref ? currentPath === homeHref
         {site.navigation.map((item) => (
           "children" in item && item.children ? (
             <li class="has-dropdown">
-              <a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined} aria-haspopup="true">
+              <button class="nav-trigger" type="button" aria-expanded="false" aria-haspopup="true">
                 {item.label}
                 <svg class="chevron" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5 6 6.5 11 1.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-              </a>
+              </button>
               <ul class="dropdown">
                 {item.children.map((child) => (
                   <li><a href={child.href} aria-current={isCurrent(child.href) ? "page" : undefined}>{child.label}</a></li>
@@ -52,22 +52,37 @@ const isCurrent = (href: string) => href === homeHref ? currentPath === homeHref
   </div>
 </header>
 
+<script>
+  document.querySelectorAll<HTMLElement>(".nav-trigger").forEach((trigger) => {
+    trigger.addEventListener("click", () => {
+      const open = trigger.getAttribute("aria-expanded") === "true";
+      trigger.setAttribute("aria-expanded", String(!open));
+    });
+  });
+  document.addEventListener("click", (event) => {
+    document.querySelectorAll<HTMLElement>('.nav-trigger[aria-expanded="true"]').forEach((trigger) => {
+      if (!trigger.parentElement?.contains(event.target as Node)) trigger.setAttribute("aria-expanded", "false");
+    });
+  });
+</script>
+
 <style>
   .site-header { position: relative; z-index: 50; color: white; background: var(--slate); box-shadow: 0 3px 12px rgb(15 23 42 / 0.2); }
   .header-inner { display: flex; min-height: 4.7rem; align-items: center; justify-content: space-between; gap: 2rem; }
   .brand { display: inline-flex; border-radius: 0.25rem; }
   .brand img { width: min(17rem, 48vw); height: auto; }
   ul { display: flex; align-items: center; gap: clamp(1rem, 2.3vw, 2rem); margin: 0; padding: 0; list-style: none; }
-  nav a { position: relative; display: inline-flex; padding-block: 1rem; color: white; font-size: 0.95rem; font-weight: 650; text-decoration: none; }
-  nav a::after { position: absolute; right: 0; bottom: 0.65rem; left: 0; height: 2px; content: ""; background: var(--periwinkle); transform: scaleX(0); transition: transform 160ms ease; }
-  nav a:hover, nav a[aria-current="page"] { color: white; }
-  nav a:hover::after, nav a[aria-current="page"]::after { transform: scaleX(1); }
+  nav a, .nav-trigger { position: relative; display: inline-flex; padding-block: 1rem; color: white; font-size: 0.95rem; font-weight: 650; text-decoration: none; }
+  .nav-trigger { padding-inline: 0; background: none; border: 0; cursor: pointer; font-family: inherit; }
+  nav a::after, .nav-trigger::after { position: absolute; right: 0; bottom: 0.65rem; left: 0; height: 2px; content: ""; background: var(--periwinkle); transform: scaleX(0); transition: transform 160ms ease; }
+  nav a:hover, .nav-trigger:hover, nav a[aria-current="page"] { color: white; }
+  nav a:hover::after, .nav-trigger:hover::after, nav a[aria-current="page"]::after { transform: scaleX(1); }
   .has-dropdown { position: relative; }
-  .has-dropdown > a { gap: 0.4rem; align-items: center; }
+  .nav-trigger { gap: 0.4rem; align-items: center; }
   .chevron { width: 0.65rem; height: 0.45rem; transition: transform 160ms ease; }
-  .has-dropdown:hover .chevron, .has-dropdown:focus-within .chevron { transform: rotate(180deg); }
+  .has-dropdown:hover .chevron, .has-dropdown:focus-within .chevron, .nav-trigger[aria-expanded="true"] .chevron { transform: rotate(180deg); }
   .dropdown { position: absolute; top: 100%; left: 0; z-index: 60; display: none; min-width: 10.5rem; margin: 0; padding: 0.45rem; list-style: none; background: var(--slate); border-radius: 0.75rem; box-shadow: 0 12px 26px rgb(15 23 42 / 0.3); }
-  .has-dropdown:hover .dropdown, .has-dropdown:focus-within .dropdown { display: block; }
+  .has-dropdown:hover .dropdown, .has-dropdown:focus-within .dropdown, .nav-trigger[aria-expanded="true"] + .dropdown { display: block; }
   .dropdown a { display: flex; justify-content: flex-start; padding: 0.6rem 0.9rem; border-radius: 0.5rem; font-weight: 650; white-space: nowrap; }
   .dropdown a::after { content: none; }
   .dropdown a:hover { background: rgb(255 255 255 / 0.08); }

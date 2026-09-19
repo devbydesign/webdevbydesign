@@ -4,10 +4,11 @@ import TestimonialBand from "../components/TestimonialBand.astro";
 import { emailHref } from "../data/site";
 
 const customFeatures = [
+  "Custom parent and child themes across multiple websites",
+  "Reusable modules, themes, or web components",
   "Easy-to-use content options for editors",
   "Advanced user roles with content-approval workflows",
   "Automated email alerts and page displays",
-  "Social media integration",
   "Advanced calendars and feeds",
   "Pre-built styles for content pages",
   "Advanced form submissions and record tracking",
@@ -18,16 +19,16 @@ const customFeatures = [
 ];
 
 const mediumFeatures = [
-  "Six to twelve core pages",
+  "Artfully designed six to twelve core pages",
   "Custom homepage and interior-page layouts",
   "Reusable custom content sections and widgets",
-  "Blog, news, or resource-library functionality",
+  "Searchable blog or news",
   "Event, gallery, testimonial, or FAQ displays",
-  "Advanced contact and lead-generation forms",
+  "Interactive lead generation forms",
   "Newsletter, CRM, and social integrations",
-  "Expanded content organization and entry support",
+  "Robust content management system",
   "Accessibility, analytics, and search fundamentals",
-  "Editor training and launch support",
+  "Customized editor experience",
 ];
 ---
 
@@ -124,7 +125,7 @@ const mediumFeatures = [
   .custom-package .button:hover { color: var(--navy-deep); background: #e7edff; }
   .package-label { color: var(--periwinkle) !important; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
   .package.featured .package-label { color: #f1f4ff !important; }
-  .package ul { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.5rem 1.4rem; padding-left: 1.2rem; }
+  .package ul { display: grid; grid-template-columns: repeat(2, 1fr); align-content: start; gap: 0.65rem 2.6rem; padding-left: 1.2rem; }
   .investment { display: grid; gap: 0.2rem; margin-block: 1.8rem 1.25rem; padding-top: 1.25rem; border-top: 1px solid rgb(148 163 184 / 0.45); }
   .investment span { color: inherit; font-size: 0.75rem; font-weight: 800; letter-spacing: 0.09em; text-transform: uppercase; opacity: 0.75; }
   .investment strong { font-size: 1.2rem; line-height: 1.35; }

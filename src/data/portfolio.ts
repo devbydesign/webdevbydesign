@@ -112,7 +112,7 @@ export const portfolio: PortfolioProject[] = [
     url: "https://jlcustomhomeplans.com/index.html",
     image: jlCustomHomePlans,
     services: "Web design · Development · Plan gallery",
-    description: "A custom house plan website presenting front elevations and floor plans through an interactive plan gallery.",
+    description: "A custom house plan website presenting floor plans through an interactive plan gallery.",
     size: "standard",
   },
   {

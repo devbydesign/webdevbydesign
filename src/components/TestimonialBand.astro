@@ -14,7 +14,7 @@ const items = getTestimonials(featured);
         <p class="eyebrow">Client perspectives</p>
         <h2 id="testimonials-heading">Testimonials</h2>
       </div>
-      <a href={pageHref("/testimonial/john-l/")}>Read client stories <span aria-hidden="true">→</span></a>
+      <a href={pageHref("/testimonial/john-l/")}>Read client stories <span class="arrow" aria-hidden="true"><svg viewBox="0 0 16 12" fill="none"><path d="M1.5 6h13M9.75 1.5 14.25 6l-4.5 4.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></a>
     </div>
     <div class="testimonial-grid">
       {items.map((item) => (
@@ -27,7 +27,7 @@ const items = getTestimonials(featured);
           <blockquote><p>{item.excerpt}</p></blockquote>
           <footer>
             <strong>{item.name}</strong>
-            <a href={pageHref(`/testimonial/${item.slug}/`)} aria-label={`Read the full testimonial from ${item.name}`}>Read more <span class="read-arrow" aria-hidden="true">→</span></a>
+            <a href={pageHref(`/testimonial/${item.slug}/`)} aria-label={`Read the full testimonial from ${item.name}`}>Read more <span class="read-arrow" aria-hidden="true"><svg viewBox="0 0 16 12" fill="none"><path d="M1.5 6h13M9.75 1.5 14.25 6l-4.5 4.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></a>
           </footer>
         </article>
       ))}
@@ -40,7 +40,10 @@ const items = getTestimonials(featured);
   .heading-row { display: flex; align-items: end; justify-content: space-between; gap: 1rem; margin-bottom: 1.75rem; }
   h2 { margin: 0; color: white; }
   .eyebrow { color: #d5defe; }
-  .heading-row > a { color: white; font-weight: 700; }
+  .heading-row > a { color: white; font-weight: 700; text-decoration: none; }
+  .heading-row > a:hover { color: white; text-decoration: none; }
+  .arrow, .read-arrow { display: inline-flex; }
+  .arrow svg, .read-arrow svg { display: block; width: 1.1em; height: 0.82em; margin-top: 0.14em; }
   .testimonial-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(1rem, 3vw, 2.3rem); }
   article { position: relative; display: flex; min-height: 16rem; flex-direction: column; padding: clamp(1.4rem, 3vw, 2rem); overflow: hidden; color: var(--ink); background: white; border-radius: var(--radius); box-shadow: var(--shadow-lg); }
   .quote-mark { position: absolute; top: 1.35rem; right: 1.45rem; display: grid; width: 3.5rem; height: 3.5rem; place-items: center; color: #b8c7f4; opacity: 0.58; }

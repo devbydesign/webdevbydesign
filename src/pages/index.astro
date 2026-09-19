@@ -11,8 +11,8 @@ import { emailHref, pageHref } from "../data/site";
 
 const services = [
   { icon: "✦", title: "Web Design", text: "Using a distinctive design skill set, we stay current with evolving technologies and the endless screen sizes a flexible, fluid website must support." },
-  { icon: "</>", title: "Web Development", text: "High-quality back-end code and thoughtful process automation help future-proof your website and improve scalability." },
-  { icon: "◎", title: "UX Testing", text: "Easy, intuitive experiences are a priority. Without a clear and smooth design, using a website can feel like navigating a maze." },
+  { icon: "</>", title: "Web Development", text: "High quality code on the back end and automation of your processes help future-proof your site and improve scalability." },
+  { icon: "◎", title: "UX Testing", text: "Easy, intuitive experiences are a top priority. Without a clear and smooth design, user experience can feel like navigating a maze." },
 ];
 
 const values = [
@@ -86,8 +86,8 @@ const values = [
         <h2 id="pricing-summary-heading">Packages & Pricing</h2>
       </div>
       <div class="prose">
-        <p>Every website has a different audience, goal, design, and set of features. We provide custom solutions built around what you need. At Dev By Design, we know that your website should be a custom product, and we believe attention to detail produces high-quality work.</p>
-        <p>Our packages include small-business websites, custom development, testing, content editing and proofreading, consulting, and brand theming.</p>
+        <p>Every website has a different audience, goal, design, and set of features. We provide custom solutions built around what you need. Here at Dev By Design, we know that your website should be a custom product, and we believe attention to detail produces high-quality work.</p>
+        <p>Our packages include small or medium business websites, custom development, testing, content editing and proofreading, consulting, and brand theming.</p>
         <div class="summary-actions">
           <a class="button" href={emailHref()}>Get Started <span aria-hidden="true">↗</span></a>
           <a class="button button-secondary" href={pageHref("/pricing/")}>View pricing</a>
@@ -105,16 +105,17 @@ const values = [
       <div class="credential-grid">
         <article class="credential credential-stanford">
           <Image src={stanfordLogo} alt="Stanford University" width={200} height={200} />
-          <div><h3>Stanford University Approved Vendor</h3><p>Approved for Stanford University purchase orders. Contact us for the vendor ID.</p></div>
+          <div><h3>Stanford University Approved Vendor</h3><p>Approved to be contracted with for Stanford University Purchase Orders. Contact for Vendor ID.</p></div>
         </article>
         <article class="credential">
           <a href="https://pantheon.io/partners/agency-preferred-pricing" rel="noreferrer">
             <Image src={pantheonLogo} alt="Pantheon" width={400} height={118} />
           </a>
-          <div><h3>Pantheon Partner</h3><p>Ask about Pantheon Partner preferred pricing discounts.</p></div>
+          <div><h3>Pantheon Partner</h3><p>See the Pantheon Partner Preferred Pricing page for Discounts</p></div>
         </article>
         <article class="credential partner-stack">
           <a href="https://www.designrush.com/agency/profile/dev-by-design" rel="noreferrer"><Image src={designRushLogo} alt="DesignRush verified agency" width={382} height={99} /></a>
+          <p class="partner-note">Also Partnered With:</p>
           <a href="https://rbbmarketing.com/" rel="noreferrer"><Image src={rbbLogo} alt="RBB Marketing" width={842} height={215} /></a>
         </article>
       </div>
@@ -148,7 +149,7 @@ const values = [
   .value-grid p { color: var(--ink-soft); }
   .pricing-layout { display: grid; grid-template-columns: minmax(15rem, 0.75fr) minmax(20rem, 1.5fr); gap: clamp(2rem, 8vw, 7rem); }
   .summary-actions { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 2rem; }
-  .credentials { background: var(--surface-soft); }
+  .credentials { padding-block: calc(var(--space-xl) * 0.8); background: var(--surface-soft); }
   .credential-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
   .credential { display: flex; min-height: 18rem; flex-direction: column; justify-content: center; padding: 1.5rem; background: white; border: 1px solid var(--line); border-radius: var(--radius); }
   .credential :global(img) { max-width: 13rem; max-height: 6rem; margin: 0 auto 1.4rem; object-fit: contain; }
@@ -159,6 +160,7 @@ const values = [
   .credential p { margin: 0; color: var(--ink-soft); font-size: var(--step--1); }
   .partner-stack { gap: 1.4rem; }
   .partner-stack :global(img) { margin-bottom: 0; }
+  .partner-note { margin: 0; color: var(--ink-soft); font-size: 1.8rem; font-weight: 700; text-align: center; }
   @media (max-width: 52rem) {
     .service-grid, .credential-grid { grid-template-columns: 1fr; }
     .service-card { min-height: auto; }
